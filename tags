@@ -38,22 +38,26 @@
 !_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
 !_TAG_PROGRAM_URL	https://ctags.io/	/official site/
 !_TAG_PROGRAM_VERSION	6.2.0	/p6.2.20260125.0/
-Backlinks	display.md	/^## Backlinks$/;"	s	chapter:Display charge order reversal instructions
-Backlinks	tasks.md	/^## Backlinks$/;"	s	chapter:Tasks
-Display charge order reversal instructions	display.md	/^# Display charge order reversal instructions$/;"	c
-Links	root.md	/^## Links$/;"	s	chapter:Root
-Links	tasks.md	/^## Links$/;"	s	chapter:Tasks
-Notes	display.md	/^## Notes$/;"	s	chapter:Display charge order reversal instructions
-Root	root.md	/^# Root$/;"	c
+And now we continue	permanent_notes/1770397244-YINO.md	/^### And now we continue$/;"	S	section:Display charge order reversal instructions""Notes
+Display charge order reversal instructions	permanent_notes/1770397244-YINO.md	/^# Display charge order reversal instructions$/;"	c
+Example of a great React PR	permanent_notes/1770395063-EWAC.md	/^# Example of a great React PR$/;"	c
+Notes	permanent_notes/1770397244-YINO.md	/^## Notes$/;"	s	chapter:Display charge order reversal instructions
+Notes	templates/template-daily-note.md	/^## Notes$/;"	s	chapter:{{date}}
 SessionLoad	Session.vim	/^let SessionLoad = 1$/;"	v
-Tasks	tasks.md	/^# Tasks$/;"	c
+Tasks	templates/template-daily-note.md	/^## Tasks$/;"	s	chapter:{{date}}
+The hunt for the missing negative number	permanent_notes/1770397244-YINO.md	/^### The hunt for the missing negative number$/;"	S	section:Display charge order reversal instructions""Notes
+Tomorrow	templates/template-daily-note.md	/^## Tomorrow$/;"	s	chapter:{{date}}
 [[	Session.vim	/^xnoremap <buffer> <silent> [[ :exe "normal! gv"|call search('\\%(^#\\{1,5\\}\\s\\+\\S\\|^\\S/;"	m
 ]]	Session.vim	/^xnoremap <buffer> <silent> ]] :exe "normal! gv"|call search('\\%(^#\\{1,5\\}\\s\\+\\S\\|^\\S/;"	m
 g:this_obsession	Session.vim	/^let g:this_obsession = v:this_session$/;"	v
 g:this_session	Session.vim	/^let g:this_session = v:this_session$/;"	v
-s:cpo_save	Session.vim	/^let s:cpo_save=&cpo$/;"	v
-s:l	Session.vim	/^let s:l = 10 - ((9 * winheight(0) + 31) \/ 62)$/;"	v
+s:l	Session.vim	/^let s:l = 1 - ((0 * winheight(0) + 18) \/ 36)$/;"	v
+s:save_splitbelow	Session.vim	/^let s:save_splitbelow = &splitbelow$/;"	v
+s:save_splitright	Session.vim	/^let s:save_splitright = &splitright$/;"	v
+s:save_winminheight	Session.vim	/^let s:save_winminheight = &winminheight$/;"	v
+s:save_winminwidth	Session.vim	/^let s:save_winminwidth = &winminwidth$/;"	v
 s:shortmess_save	Session.vim	/^let s:shortmess_save = &shortmess$/;"	v
 s:so_save	Session.vim	/^let s:so_save = &g:so | let s:siso_save = &g:siso | setg so=0 siso=0 | setl so=-1 siso=-1$/;"	v
 s:sx	Session.vim	/^let s:sx = expand("<sfile>:p:r")."x.vim"$/;"	v
 s:wipebuf	Session.vim	/^  let s:wipebuf = bufnr('%')$/;"	v
+{{date}}	templates/template-daily-note.md	/^# {{date}}$/;"	c
