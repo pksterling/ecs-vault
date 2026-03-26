@@ -1,8 +1,10 @@
 ---
-id: 1774019712-BZOV
+id: tcs-131-implement-dual-rate
 aliases:
   - 1774019703-DYGW
-tags: []
+tags:
+  - #task/completed
+  - #cycle/march
 ---
 
 # TCS-131: Implement Dual Rate

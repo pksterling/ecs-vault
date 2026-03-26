@@ -1,5 +1,5 @@
 ---
-id: 1770395063-EWAC
+id: example-of-a-great-react-pr
 aliases: []
 tags:
   - #reference

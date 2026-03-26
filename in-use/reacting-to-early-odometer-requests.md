@@ -1,10 +1,10 @@
 ---
-id: 1771843346-VLCA
+id: reacting-to-early-odometer-requests
 aliases:
   - Reacting to early odometer requests
 tags:
   - #cycle/march
-  - #task/in-progress
+  - #task/completed
 ---
 
 # Reacting to early odometer requests

@@ -1,5 +1,5 @@
 ---
-id: 1773133180-DTXG
+id: arel-snippet
 aliases:
   - Arel snippet
 tags:

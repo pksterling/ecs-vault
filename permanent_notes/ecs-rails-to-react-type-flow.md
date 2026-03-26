@@ -1,5 +1,5 @@
 ---
-id: 1770634204-GHCP
+id: ecs-rails-to-react-type-flow
 aliases: []
 tags:
   - #tip

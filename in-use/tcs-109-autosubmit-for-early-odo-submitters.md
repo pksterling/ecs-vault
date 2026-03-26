@@ -1,11 +1,11 @@
 ---
-id: 1772470836-DANJ
+id: tcs-109-autosubmit-for-early-odo-submitters
 aliases:
   - TCS-109 - Autosubmit for early odo submitters
 tags:
   - #cycle/march
   - #ruby-rails
-  - #task/in-progress
+  - #task/completed
 ---
 
 # TCS-109 - Autosubmit for early odo submitters
@@ -86,4 +86,4 @@ end
 
 ## Arel
 I've learnt a lot about Arel. I'm going to put some snippets of what I've done
-in a note - [[1773133180-DTXG|Arel snippet]]
+in a note - [[arel-snippet|Arel snippet]]

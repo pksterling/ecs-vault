@@ -1,5 +1,5 @@
 ---
-id: 1772445500-QANZ
+id: current-tasks
 aliases: []
 tags:
   - #planning
@@ -7,19 +7,20 @@ tags:
 ---
 
 # Current Tasks
-- [ ] ***URGENT*** Fix autosubmission bug
+- [?] [[fix-autosubmission-dividebyzero-bug|fix autosubmission dividebyzero bug]]
 
-- [/] [[1773242772-MODV|Dual rate business mileage]]
-  - [/] [[1774019703-DYGW|TCS-131: Implement Dual Rate]]
+- [/] [[dual-rate-business-mileage|Dual rate business mileage]]
+  - [?] [[tcs-131-implement-dual-rate|TCS-131: Implement Dual Rate]]
   - [ ] TCS-120: Exporting to Reporting
   - [ ] TCS-122: Change employer biz miles reimbursement strat on admin
 
-- [x] [[1773392589-UPGM|Demo: Fri 13th March]]
-- [x] [[1772612342-SBJG|Create `queues_job` matcher]]
-  - [x] [[1772470836-DANJ|TCS-109: Autosubmit for early odo submitters]]
+- [x] [[fix-autosubmission-bug]]
+- [x] [[demo-fri-13th-march|Demo: Fri 13th March]]
+- [x] [[create-queuesjob-matcher|Create `queues_job` matcher]]
+  - [x] [[tcs-109-autosubmit-for-early-odo-submitters|TCS-109: Autosubmit for early odo submitters]]
   - [x] [Charge Scheme Activities for EVS](https://linear.app/electriccarscheme/project/charge-scheme-activities-for-evs-d2d3a7a5f3eb)
-  - [x] [[1772446342-RJQS|TCS-108: Emailing on the 27th]]
-  - [x] [[1772446342-RJQS|TCS-107: Emailing on the 21st]]
+  - [x] [[tsc-107-emailing-on-the-21st|TCS-108: Emailing on the 27th]]
+  - [x] [[tsc-107-emailing-on-the-21st|TCS-107: Emailing on the 21st]]
   - [x] [TCS-92: Store email on Person when manually linking a PS User](https://linear.app/electriccarscheme/issue/TCS-92/store-email-on-person-when-manually-linking-a-ps-user)
 - [x] Demo: Thu 19th February
   - [x] [TCS-90: Backlink Plugsurfing user to employee](https://linear.app/electriccarscheme/issue/TCS-90/back-link-plugsurfing-user-to-employee)

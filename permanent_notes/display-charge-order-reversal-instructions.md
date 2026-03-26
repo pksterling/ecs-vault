@@ -1,5 +1,5 @@
 ---
-id: 1770397244-YINO
+id: display-charge-order-reversal-instructions
 aliases: []
 tags:
   - #task/completed
@@ -25,7 +25,7 @@ Imma work from the front backwards!
 Check the git diff, maybe a bit confused about where to change types -
 PayrollInstruction looks like it's been manually set so I'll follow that.
 
-### [[1770634204-GHCP|Types]] sorted?
+### [[ecs-rails-to-react-type-flow|Types]] sorted?
 - Edited view model
 - Edited openapi ruby file
 - Ran type api script

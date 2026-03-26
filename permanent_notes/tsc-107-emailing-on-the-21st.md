@@ -1,5 +1,5 @@
 ---
-id: 1772446342-RJQS
+id: tsc-107-emailing-on-the-21st
 aliases:
   - TSC-107 - Emailing on the 21st
   - TSC-108 - Emailing on the 27th
