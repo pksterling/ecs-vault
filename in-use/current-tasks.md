@@ -7,13 +7,19 @@ tags:
 ---
 
 # Current Tasks
-- [?] [[fix-autosubmission-dividebyzero-bug|fix autosubmission dividebyzero bug]]
-
-- [/] [[dual-rate-business-mileage|Dual rate business mileage]]
-  - [?] [[tcs-131-implement-dual-rate|TCS-131: Implement Dual Rate]]
-  - [ ] TCS-120: Exporting to Reporting
-  - [ ] TCS-122: Change employer biz miles reimbursement strat on admin
-
+- [/] [[reverse-non-compliant-autosubmission-changes|Reverse non-compliant autosubmission changes]]
+- [/] [[investigate-reminder-email-error|Investigate reminder email error]]
+- [ ] [[skip-invalid-charge-orders-within-reminder-job|Skip invalid charge orders within reminder job]]
+- [ ] [[missing-initial-reading-slack-bot|Missing initial reading slack bot]]
+---
+- [ ] Write reviews on glassdoor and google reviews
+- [ ] Announce odo reminder emails
+- [?] [[tcs-131-implement-dual-rate|TCS-131: Implement Dual Rate]]
+- [?] TCS-122: Change employer biz miles reimbursement strat on admin
+- [ ] TCS-120: Exporting to Reporting
+---
+- [x] [[fix-autosubmission-dividebyzero-bug|fix autosubmission dividebyzero bug]]
+- [x] [[demo-fri-27th-march|Demo: Fri 27th March]]
 - [x] [[fix-autosubmission-bug]]
 - [x] [[demo-fri-13th-march|Demo: Fri 13th March]]
 - [x] [[create-queuesjob-matcher|Create `queues_job` matcher]]

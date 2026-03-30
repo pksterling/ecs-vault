@@ -21,3 +21,4 @@ tags:
 - [x] Update latest method in odometer utility file
 - [x] Use latest reading in odometer strategy
   + Including updating the odo mileage variable in the predictor
+- [ ] Check Send Reminder email job

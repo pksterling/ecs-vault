@@ -1,7 +1,7 @@
 # {{date}}
 
-## Tasks
+## Open
 
-## Notes
+## Interstitial
 
-## Tomorrow
+## Close
