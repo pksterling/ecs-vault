@@ -7,7 +7,7 @@ tags:
 ---
 
 # Current Tasks
-- [ ] [[missing-initial-reading-slack-bot|Missing initial reading slack bot]]
+- [/] [[missin-initial-reading-slack-bot|Missing initial reading slack bot]]
 ---
 - [ ] Write reviews on glassdoor and google reviews
 - [ ] Announce odo reminder emails
