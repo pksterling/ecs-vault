@@ -7,9 +7,6 @@ tags:
 ---
 
 # Current Tasks
-- [/] [[reverse-non-compliant-autosubmission-changes|Reverse non-compliant autosubmission changes]]
-- [/] [[investigate-reminder-email-error|Investigate reminder email error]]
-- [ ] [[skip-invalid-charge-orders-within-reminder-job|Skip invalid charge orders within reminder job]]
 - [ ] [[missing-initial-reading-slack-bot|Missing initial reading slack bot]]
 ---
 - [ ] Write reviews on glassdoor and google reviews
@@ -18,6 +15,9 @@ tags:
 - [?] TCS-122: Change employer biz miles reimbursement strat on admin
 - [ ] TCS-120: Exporting to Reporting
 ---
+- [x] [[skip-invalid-charge-orders-within-reminder-job|Skip invalid charge orders within reminder job]]
+- [x] [[reverse-non-compliant-autosubmission-changes|Reverse non-compliant autosubmission changes]]
+- [x] [[investigate-reminder-email-error|Investigate reminder email error]]
 - [x] [[fix-autosubmission-dividebyzero-bug|fix autosubmission dividebyzero bug]]
 - [x] [[demo-fri-27th-march|Demo: Fri 27th March]]
 - [x] [[fix-autosubmission-bug]]

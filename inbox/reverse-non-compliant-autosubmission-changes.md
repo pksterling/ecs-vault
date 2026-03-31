@@ -54,7 +54,7 @@ bad_autosubmissions = ChargeScheme::OdometerReading
                       .reading_type_auto_submission
                       .where(day: Date.current.all_month)
                       .joins(charge_order: :odometer_readings)
-                      .where(charge_order: { odometer_reading: { day:
+                      .where(charge_order: { odometer_readings: { day:
                       Date.current.all_month, reading_type: "employee" } })
 
 ```
