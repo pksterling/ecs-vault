@@ -27,3 +27,24 @@ tags:
     > Employee: `<employee_name>`
     > Registration: `<car_reg>`
     > @customer-care
+
+- I've found wherer that bot is triggered
+  `app/services/charge_scheme/create_initial_odometer_slack_notification.rb`
+- It uses a slack client `Dependencies['clients.slack_v2']`
+- I need to create a job that finds the relevant orders, triggers this bot with
+  the relevant info
+- *Is it only voltric orders?*
+
+## Lost in the sauce
+- Finished the notifier **BOOF**
+- Now need to pass it order_ids
+- I looked at the single notifier job but it collects based on whether or not
+  that event has been triggered already - this won't work for this as it will
+  have always been previously triggered
+- Spoke to #person/dushan
+  + The charge orders belong to quotes
+  + Quotes have subscription configurations
+  + In theory, this could be from other providers, so I must specify Voltric
+  + Basically,
+    `charge_orders.subscription.voltric.where.missing(:odometer_reading_initial)`
+  + Write a query for prod and look for zero results
