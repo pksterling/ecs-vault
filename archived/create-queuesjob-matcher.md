@@ -3,7 +3,7 @@ id: create-queuesjob-matcher
 aliases: []
 tags:
   - #cycle/march
-  - #task/completed
+  - #task
   - #ruby-rails
   - #rspec
 ---

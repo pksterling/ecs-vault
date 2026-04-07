@@ -3,7 +3,8 @@ id: fix-autosubmission-dividebyzero-bug
 aliases:
   - Fix autosubmission dividebyzero bug
 tags:
-  - task/in-progress
+  - #task
+  - #cycle/march
 ---
 
 # Fix autosubmission dividebyzero bug

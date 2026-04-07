@@ -3,7 +3,7 @@ id: planning-week-february-2026
 aliases:
   - 1771843025-PVFO
 tags:
-  - #planning-week
+  - #planning
   - #cycle/march
 ---
 

@@ -3,7 +3,7 @@ id: tcs-92-store-email-on-person-when-manually-linking-a-ps-user
 aliases:
   - 1771592771-CYUY
 tags:
-  - #task/completed
+  - #task
 ---
 
 # TCS-92 - Store email on Person when manually linking a PS User

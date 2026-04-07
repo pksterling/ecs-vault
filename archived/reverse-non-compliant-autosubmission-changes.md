@@ -3,7 +3,7 @@ id: reverse-non-compliant-autosubmission-changes
 aliases: []
 tags:
   - #cycle/march
-  - #task/in-progress
+  - #task
 ---
 # Reverse non-compliant autosubmission changes
 

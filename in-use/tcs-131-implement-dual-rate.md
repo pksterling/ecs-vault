@@ -3,7 +3,7 @@ id: tcs-131-implement-dual-rate
 aliases:
   - 1774019703-DYGW
 tags:
-  - #task/completed
+  - #task
   - #cycle/march
 ---
 

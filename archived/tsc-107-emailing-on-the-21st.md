@@ -5,7 +5,7 @@ aliases:
   - TSC-108 - Emailing on the 27th
 tags:
   - #cycle/march
-  - #task/completed
+  - #task
 ---
 
 # TSC-107 - Emailing on the 21st

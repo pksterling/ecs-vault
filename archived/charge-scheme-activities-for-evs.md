@@ -2,7 +2,7 @@
 id: charge-scheme-activities-for-evs
 aliases: []
 tags:
-  - #task/completed
+  - #task
   - #cycle/march
 ---
 

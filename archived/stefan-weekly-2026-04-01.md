@@ -1,10 +1,10 @@
 ---
-id: one-to-one---stefan---2026-04-01
+id: stefan-weekly-2026-04-01
 aliases: []
 tags:
   - #personal-development
 ---
-# One-to-one - Stefan - 2026-04-01
+# Stefan - weekly - 2026-04-01
 
 ## Going well
 - Taking ownership (after work has finished, checking it's functioning)

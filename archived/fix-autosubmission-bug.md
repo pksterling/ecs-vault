@@ -1,8 +1,10 @@
 ---
 id: fix-autosubmission-bug
-aliases:
-  - 1774346907-OXSA
-tags: []
+aliases: []
+tags:
+  - #debugging
+  - #task
+  - #cycle/march
 ---
 
 # Fix autosubmission bug

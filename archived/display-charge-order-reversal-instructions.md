@@ -2,7 +2,7 @@
 id: display-charge-order-reversal-instructions
 aliases: []
 tags:
-  - #task/completed
+  - #task
   - #ruby-rails
   - #react
 ---

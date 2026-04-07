@@ -7,10 +7,9 @@ tags:
 ---
 
 # Current Tasks
-- [/] [[missin-initial-reading-slack-bot|Missing initial reading slack bot]]
+- [?] [[missin-initial-reading-slack-bot|Missing initial reading slack bot]]
 ---
 - [ ] Write reviews on glassdoor and google reviews
-- [ ] Announce odo reminder emails
 - [?] [[tcs-131-implement-dual-rate|TCS-131: Implement Dual Rate]]
 - [?] TCS-122: Change employer biz miles reimbursement strat on admin
 - [ ] TCS-120: Exporting to Reporting

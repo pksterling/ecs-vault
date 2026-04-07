@@ -3,7 +3,7 @@ id: dual-rate-business-mileage
 aliases: []
 tags:
   - #planning
-  - #task/to-do
+  - #task
 ---
 
 # Dual rate business mileage

@@ -4,7 +4,7 @@ aliases:
   - Reacting to early odometer requests
 tags:
   - #cycle/march
-  - #task/completed
+  - #task
 ---
 
 # Reacting to early odometer requests
