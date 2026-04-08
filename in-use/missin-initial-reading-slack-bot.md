@@ -49,3 +49,6 @@ tags:
   + Basically,
     `charge_orders.subscription.voltric.where.missing(:odometer_reading_initial)`
   + Write a query for prod and look for zero results
+
+## Check check check
+- Setting a reminder to check it is working on Tuesday morning
