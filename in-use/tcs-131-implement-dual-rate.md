@@ -16,7 +16,7 @@ tags:
 - [x] Pull frontend and column replacement into second PR
 
 ## Notes
-  - Added dual rate to backend
+- Added dual rate to backend
 - Added dual rate to frontend
 - Replaced `reimburses_business_mileage` with `business_mileage_reimbursement_calculator`
 - Conversation #person/dushan

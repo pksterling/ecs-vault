@@ -7,9 +7,8 @@ tags:
 ---
 
 # Current Tasks
-- [*] [[missin-initial-reading-slack-bot|Missing initial reading slack bot]]
+- [l] [[missin-initial-reading-slack-bot|Missing initial reading slack bot]]
 - [?] [[tcs-131-implement-dual-rate|TCS-131: Implement Dual Rate]]
-- []
 ---
 - [?] TCS-122: Change employer biz miles reimbursement strat on admin
 - [ ] Write reviews on glassdoor and google reviews
