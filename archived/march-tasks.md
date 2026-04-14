@@ -1,12 +1,12 @@
 ---
-id: current-tasks
+id: march-tasks
 aliases: []
 tags:
   - #planning
   - #cycle/march
 ---
 
-# Current Tasks
+# March Tasks
 - [l] [[missin-initial-reading-slack-bot|Missing initial reading slack bot]]
 - [?] [[tcs-131-implement-dual-rate|TCS-131: Implement Dual Rate]]
 ---
