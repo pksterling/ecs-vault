@@ -1,17 +1,18 @@
 ---
-id: reimburse-employer-approvals-super-lean-scenario
+id: reimburse-employer-approvals-realistic-lean-scenario
 aliases: []
-tags: []
+tags:
+  - #planning
+  - #cycle/april
 ---
-# Reimburse Employer Approvals Super Lean Scenario
+# Reimburse Employer Approvals Realistic Lean Scenario
 ## Scenario
-- Approver logs in - only has access to reimburse.
-- Approver sees list of pending claims from company
-- Approver can view claim
+- Admin logs in
+- Admin sees list of pending claims
+- Admin can view claim
   + Lists all trips within claim
-  + Are there multiple claims per user?
-- Approver can:
-  + Reject
+- Admin can:
+  + Reject (with comment)
   + Approve
 - Employee can view status
 - Employee can edit unprocessed claim - add/remove trips
