@@ -15,13 +15,35 @@ class Claim
 end
 ```
 
-- Admin can view a list of pending claims
-- Admin can view a claim
-- Admin can reject a claim with a comment
-- Admin can approve a claim
-- Employee can view a claim
-- 
-- Employee can
+## Scenarios
+### Claim Approval
+- Admin visits mileage claim approvals page
+  + Admin views a list of claims ("pending", "rejected", "approved")
+  + Admin views a claim
+    * Admin views a list of trips
+    * Admin approves the claim
+- Employee sees claim with status "approved"
+
+### Claim Rejection
+- Admin visits mileage claim approvals page
+  + Admin views a list of claims ("pending", "rejected", "approved")
+  + Admin views a claim
+    * Admin views a list of trips
+    * Admin rejects the claim
+    * Admin provides a rejection reason
+- Employee sees claim with status "rejected" alongside the rejection reason
+- Employee can now edit the claim
+
+### Audit Log
+- Admin views audit log
+  + Table of all claims with the following columns:
+    * Timestamp
+    * Employee
+    * Rate
+    * Action ("Submitted", "Rejected", "Approved")
+    * Actor
+    * Comment
+- Admin can export audit log CSV
 
 ## BRRRAAAAAAINSSS!!
 ### What happens if a claim cannot be resubmitted after rejection?
