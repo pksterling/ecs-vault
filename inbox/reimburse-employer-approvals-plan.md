@@ -45,14 +45,22 @@ end
     * Comment
 - Admin can export audit log CSV
 
-## BRRRAAAAAAINSSS!!
-### What happens if a claim cannot be resubmitted after rejection?
-- Employee will need to submit a new claim
-- Where do they see the rejection reason?
-- Do they see multiple rejection reasons or just the last one?
-- Are the trips removed from the rejected claim?
-- Maybe:
-  + Admin rejects claim with a reason
-  + Employee sees trips, now marked as rejected, with the reason
-
-### What happens if a claim can be resubmitted after rejection?
+## Issues
+### Employer approvals
+#### Claim model
+### Employer approvals front-end
+#### Claims table
+#### View claim modal
+#### Claims table filter
+### Employee claim response
+### Audit log
+#### Claims table
+#### Claims table filter
+#### Export to CSV
+### Approvers
+#### Role-based authorisation for employer portal
+#### Mileage approver
+#### Approver management front-end
+### Approver heirarchy
+#### Add employees to approvers
+#### Approver teams management front-end
