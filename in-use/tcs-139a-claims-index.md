@@ -12,5 +12,5 @@ tags:
   + [x] Employer approvals route
     * Route works
     * Now checking we don't get claims from other companies
-  + Link to employer approvals in dashboard
+  + [x] Link to employer approvals in dashboard
   + Claims table
