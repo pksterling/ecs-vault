@@ -45,9 +45,8 @@ end
     * Comment
 - Admin can export audit log CSV
 
-## Issues
-### Employer approvals
-#### Claim model
+## Rough issues planning
+### Claim model
 ### Employer approvals front-end
 #### Claims table
 #### View claim modal
@@ -64,3 +63,4 @@ end
 ### Approver heirarchy
 #### Add employees to approvers
 #### Approver teams management front-end
+
