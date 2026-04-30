@@ -9,10 +9,12 @@ tags:
 # April Tasks
 
 ## 󰭟 Batman
-- [/] [[resignation-protection-debug|Resignation Protection Debug]]
-- [/] [[invalid-mobile-phone-number|Invalid mobile phone number]]
-- [/] [[director-service-agreement|Director service agreement]]
-- [ ] [[activerecord-strictloadingviolationerror|ActiveRecord::StrictLoadingViolationError]]
+- [*] [[resignation-protection-debug|Resignation Protection Debug]]
+- [*] [[activerecord-strictloadingviolationerror|ActiveRecord::StrictLoadingViolationError]]
+- [?] [[invalid-mobile-phone-number|Invalid mobile phone number]]
+- [/] [[wrong-employee-opt-out-reason|Wrong employee opt out reason]]
+- [ ] [[set-goodjob-timezones|Set goodjob timezones]]
+- [x] [[director-service-agreement|Director service agreement]]
 
 ## Current
 - [ ] [[tcs-139-employer-approvals]]
