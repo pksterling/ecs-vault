@@ -8,6 +8,12 @@ tags:
 
 # April Tasks
 
+## 󰭟 Batman
+- [/] [[resignation-protection-debug|Resignation Protection Debug]]
+- [/] [[invalid-mobile-phone-number|Invalid mobile phone number]]
+- [/] [[director-service-agreement|Director service agreement]]
+- [ ] [[activerecord-strictloadingviolationerror|ActiveRecord::StrictLoadingViolationError]]
+
 ## Current
 - [ ] [[tcs-139-employer-approvals]]
   - [/] [[tcs-139a-claims-index|TCS-139a - Claims index]]
