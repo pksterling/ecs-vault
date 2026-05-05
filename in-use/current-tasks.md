@@ -8,15 +8,8 @@ tags:
 
 # April Tasks
 
-## 󰭟 Batman
-- [*] [[resignation-protection-debug|Resignation Protection Debug]]
-- [*] [[activerecord-strictloadingviolationerror|ActiveRecord::StrictLoadingViolationError]]
-- [?] [[invalid-mobile-phone-number|Invalid mobile phone number]]
-- [/] [[wrong-employee-opt-out-reason|Wrong employee opt out reason]]
-- [ ] [[set-goodjob-timezones|Set goodjob timezones]]
-- [x] [[director-service-agreement|Director service agreement]]
-
 ## Current
+- [ ] [[set-goodjob-timezones|Set goodjob timezones]]
 - [ ] [[tcs-139-employer-approvals]]
   - [/] [[tcs-139a-claims-index|TCS-139a - Claims index]]
 
@@ -39,3 +32,10 @@ tags:
 - [?] [[tcs-131-implement-dual-rate|TCS-131: Implement Dual Rate]]
 - [?] TCS-122: Change employer biz miles reimbursement strat on admin
 - [x] Write reviews on glassdoor and google reviews
+
+## 󰭟 Batman
+- [x] [[resignation-protection-debug|Resignation Protection Debug]]
+- [x] [[activerecord-strictloadingviolationerror|ActiveRecord::StrictLoadingViolationError]]
+- [x] [[invalid-mobile-phone-number|Invalid mobile phone number]]
+- [x] [[wrong-employee-opt-out-reason|Wrong employee opt out reason]]
+- [x] [[director-service-agreement|Director service agreement]]

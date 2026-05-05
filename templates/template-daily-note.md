@@ -1,4 +1,4 @@
-# {{date}}
+# {{date:dddd Do MMM [']YY}}
 
 > [!GOALS] GOALS
 > **󰓎 Product-facing demos**
