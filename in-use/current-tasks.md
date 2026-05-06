@@ -9,7 +9,6 @@ tags:
 # April Tasks
 
 ## Current
-- [?] [[set-goodjob-timezones|Set goodjob timezones]]
 - [ ] [[tcs-139-employer-approvals]]
   - [/] [[tcs-139a-claims-index|TCS-139a - Claims index]]
 
@@ -21,6 +20,7 @@ tags:
 - [ ] [[tcs-139f-claim-filtering|TCS-139f - Claim filtering]]
 
 ## [[next-demo]]
+- [x] [[set-goodjob-timezones|Set goodjob timezones]]
 - [x] [[missin-initial-reading-slack-bot|Missing initial reading slack bot]]
 - [x] [[skip-invalid-charge-orders-within-reminder-job|Skip invalid charge orders within reminder job]]
 - [x] [[reverse-non-compliant-autosubmission-changes|Reverse non-compliant autosubmission changes]]
