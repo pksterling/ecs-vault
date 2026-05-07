@@ -13,6 +13,14 @@ tags:
     * Route works
     * Now checking we don't get claims from other companies
   + [x] Link to employer approvals in dashboard
-  + [/] Claims table
+  + [x] Claims table
     * Columns are already added to db table
-    * [/] Create front-end claims table
+    * [x] Create front-end cjjlaims table
+    * Set claude off working
+    * Looks like it's built
+    * Need seeds
+    DONNNNNNNNE
+
+LINT
+TEST
+PR
