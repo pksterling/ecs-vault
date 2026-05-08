@@ -11,7 +11,7 @@ endif
 let s:shortmess_save = &shortmess
 set shortmess+=aoO
 badd +1 in-use/current-tasks.md
-badd +12 in-use/tcs-139a-claims-index.md
+badd +25 in-use/tcs-139a-claims-index.md
 badd +1 daily-notes/2026-05-05.md
 badd +31 in-use/set-goodjob-timezones.md
 badd +21 inbox/riz-pipedrive-activity.md
@@ -19,7 +19,8 @@ badd +12 archived/charge-scheme-activities-for-evs.md
 badd +22 daily-notes/2026-04-20.md
 badd +12 in-use/tcs-139-employer-approvals.md
 badd +45 daily-notes/2026-05-06.md
-badd +21 daily-notes/2026-05-07.md
+badd +20 daily-notes/2026-05-07.md
+badd +32 daily-notes/2026-05-08.md
 argglobal
 %argdel
 $argadd daily-notes/2026-05-05.md
@@ -92,7 +93,7 @@ if bufexists(fnamemodify("~/notes/in-use/tcs-139a-claims-index.md", ":p")) | buf
 if &buftype ==# 'terminal'
   silent file ~/notes/in-use/tcs-139a-claims-index.md
 endif
-balt ~/notes/daily-notes/2026-05-07.md
+balt ~/notes/daily-notes/2026-05-08.md
 setlocal foldmethod=indent
 setlocal foldexpr=0
 setlocal foldmarker={{{,}}}
@@ -103,20 +104,22 @@ setlocal foldnestmax=20
 setlocal foldenable
 11
 sil! normal! zo
-let s:l = 12 - ((11 * winheight(0) + 16) / 33)
+30
+sil! normal! zo
+let s:l = 25 - ((8 * winheight(0) + 16) / 33)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 12
+keepjumps 25
 normal! 0
 lcd ~/notes
 wincmd w
 argglobal
-if bufexists(fnamemodify("~/notes/daily-notes/2026-05-07.md", ":p")) | buffer ~/notes/daily-notes/2026-05-07.md | else | edit ~/notes/daily-notes/2026-05-07.md | endif
+if bufexists(fnamemodify("~/notes/daily-notes/2026-05-08.md", ":p")) | buffer ~/notes/daily-notes/2026-05-08.md | else | edit ~/notes/daily-notes/2026-05-08.md | endif
 if &buftype ==# 'terminal'
-  silent file ~/notes/daily-notes/2026-05-07.md
+  silent file ~/notes/daily-notes/2026-05-08.md
 endif
-balt ~/notes/in-use/current-tasks.md
+balt ~/notes/daily-notes/2026-05-07.md
 setlocal foldmethod=indent
 setlocal foldexpr=0
 setlocal foldmarker={{{,}}}
@@ -125,12 +128,12 @@ setlocal foldlevel=99
 setlocal foldminlines=1
 setlocal foldnestmax=20
 setlocal foldenable
-let s:l = 21 - ((20 * winheight(0) + 16) / 33)
+let s:l = 32 - ((30 * winheight(0) + 16) / 33)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 21
-normal! 0
+keepjumps 32
+normal! 063|
 lcd ~/notes
 wincmd w
 4wincmd w
