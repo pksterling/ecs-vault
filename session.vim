@@ -21,7 +21,7 @@ badd +1 in-use/tcs-139-employer-approvals.md
 badd +45 daily-notes/2026-05-06.md
 badd +20 daily-notes/2026-05-07.md
 badd +22 daily-notes/2026-05-08.md
-badd +35 daily-notes/2026-05-11.md
+badd +39 daily-notes/2026-05-11.md
 argglobal
 %argdel
 $argadd daily-notes/2026-05-05.md
@@ -61,12 +61,12 @@ setlocal foldlevel=99
 setlocal foldminlines=1
 setlocal foldnestmax=20
 setlocal foldenable
-let s:l = 37 - ((19 * winheight(0) + 11) / 22)
+let s:l = 39 - ((19 * winheight(0) + 11) / 22)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 37
-normal! 012|
+keepjumps 39
+normal! 066|
 lcd ~/notes
 wincmd w
 argglobal
