@@ -10,21 +10,22 @@ if expand('%') == '' && !&modified && line('$') <= 1 && getline(1) == ''
 endif
 let s:shortmess_save = &shortmess
 set shortmess+=aoO
-badd +1 in-use/current-tasks.md
-badd +25 in-use/tcs-139a-claims-index.md
+badd +13 in-use/current-tasks.md
+badd +38 in-use/tcs-139a-claims-index.md
 badd +1 daily-notes/2026-05-05.md
 badd +31 in-use/set-goodjob-timezones.md
 badd +21 inbox/riz-pipedrive-activity.md
 badd +12 archived/charge-scheme-activities-for-evs.md
 badd +22 daily-notes/2026-04-20.md
-badd +12 in-use/tcs-139-employer-approvals.md
+badd +1 in-use/tcs-139-employer-approvals.md
 badd +45 daily-notes/2026-05-06.md
 badd +20 daily-notes/2026-05-07.md
-badd +32 daily-notes/2026-05-08.md
+badd +22 daily-notes/2026-05-08.md
+badd +35 daily-notes/2026-05-11.md
 argglobal
 %argdel
 $argadd daily-notes/2026-05-05.md
-edit in-use/current-tasks.md
+edit daily-notes/2026-05-11.md
 let s:save_splitbelow = &splitbelow
 let s:save_splitright = &splitright
 set splitbelow splitright
@@ -36,10 +37,6 @@ split
 1wincmd k
 wincmd w
 wincmd w
-wincmd _ | wincmd |
-split
-1wincmd k
-wincmd w
 let &splitbelow = s:save_splitbelow
 let &splitright = s:save_splitright
 wincmd t
@@ -49,17 +46,13 @@ set winminheight=0
 set winheight=1
 set winminwidth=0
 set winwidth=1
-exe '1resize ' . ((&lines * 33 + 34) / 69)
-exe 'vert 1resize ' . ((&columns * 89 + 89) / 179)
-exe '2resize ' . ((&lines * 33 + 34) / 69)
-exe 'vert 2resize ' . ((&columns * 89 + 89) / 179)
-exe '3resize ' . ((&lines * 33 + 34) / 69)
-exe 'vert 3resize ' . ((&columns * 89 + 89) / 179)
-exe '4resize ' . ((&lines * 33 + 34) / 69)
-exe 'vert 4resize ' . ((&columns * 89 + 89) / 179)
+exe '1resize ' . ((&lines * 22 + 23) / 47)
+exe 'vert 1resize ' . ((&columns * 83 + 83) / 167)
+exe '2resize ' . ((&lines * 22 + 23) / 47)
+exe 'vert 2resize ' . ((&columns * 83 + 83) / 167)
+exe 'vert 3resize ' . ((&columns * 83 + 83) / 167)
 argglobal
-enew
-balt daily-notes/2026-05-07.md
+balt daily-notes/2026-05-08.md
 setlocal foldmethod=indent
 setlocal foldexpr=0
 setlocal foldmarker={{{,}}}
@@ -68,9 +61,19 @@ setlocal foldlevel=99
 setlocal foldminlines=1
 setlocal foldnestmax=20
 setlocal foldenable
+let s:l = 35 - ((17 * winheight(0) + 11) / 22)
+if s:l < 1 | let s:l = 1 | endif
+keepjumps exe s:l
+normal! zt
+keepjumps 35
+normal! 060|
 lcd ~/notes
 wincmd w
 argglobal
+if bufexists(fnamemodify("~/notes/in-use/current-tasks.md", ":p")) | buffer ~/notes/in-use/current-tasks.md | else | edit ~/notes/in-use/current-tasks.md | endif
+if &buftype ==# 'terminal'
+  silent file ~/notes/in-use/current-tasks.md
+endif
 balt ~/notes/in-use/tcs-139a-claims-index.md
 setlocal foldmethod=indent
 setlocal foldexpr=0
@@ -80,12 +83,12 @@ setlocal foldlevel=99
 setlocal foldminlines=1
 setlocal foldnestmax=20
 setlocal foldenable
-let s:l = 12 - ((11 * winheight(0) + 16) / 33)
+let s:l = 4 - ((3 * winheight(0) + 11) / 22)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 12
-normal! 0
+keepjumps 4
+normal! 08|
 lcd ~/notes
 wincmd w
 argglobal
@@ -93,7 +96,7 @@ if bufexists(fnamemodify("~/notes/in-use/tcs-139a-claims-index.md", ":p")) | buf
 if &buftype ==# 'terminal'
   silent file ~/notes/in-use/tcs-139a-claims-index.md
 endif
-balt ~/notes/daily-notes/2026-05-08.md
+balt ~/notes/daily-notes/2026-05-11.md
 setlocal foldmethod=indent
 setlocal foldexpr=0
 setlocal foldmarker={{{,}}}
@@ -106,45 +109,20 @@ setlocal foldenable
 sil! normal! zo
 30
 sil! normal! zo
-let s:l = 25 - ((8 * winheight(0) + 16) / 33)
+let s:l = 41 - ((17 * winheight(0) + 22) / 45)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 25
-normal! 0
+keepjumps 41
+normal! 039|
 lcd ~/notes
 wincmd w
-argglobal
-if bufexists(fnamemodify("~/notes/daily-notes/2026-05-08.md", ":p")) | buffer ~/notes/daily-notes/2026-05-08.md | else | edit ~/notes/daily-notes/2026-05-08.md | endif
-if &buftype ==# 'terminal'
-  silent file ~/notes/daily-notes/2026-05-08.md
-endif
-balt ~/notes/daily-notes/2026-05-07.md
-setlocal foldmethod=indent
-setlocal foldexpr=0
-setlocal foldmarker={{{,}}}
-setlocal foldignore=#
-setlocal foldlevel=99
-setlocal foldminlines=1
-setlocal foldnestmax=20
-setlocal foldenable
-let s:l = 32 - ((30 * winheight(0) + 16) / 33)
-if s:l < 1 | let s:l = 1 | endif
-keepjumps exe s:l
-normal! zt
-keepjumps 32
-normal! 063|
-lcd ~/notes
-wincmd w
-4wincmd w
-exe '1resize ' . ((&lines * 33 + 34) / 69)
-exe 'vert 1resize ' . ((&columns * 89 + 89) / 179)
-exe '2resize ' . ((&lines * 33 + 34) / 69)
-exe 'vert 2resize ' . ((&columns * 89 + 89) / 179)
-exe '3resize ' . ((&lines * 33 + 34) / 69)
-exe 'vert 3resize ' . ((&columns * 89 + 89) / 179)
-exe '4resize ' . ((&lines * 33 + 34) / 69)
-exe 'vert 4resize ' . ((&columns * 89 + 89) / 179)
+3wincmd w
+exe '1resize ' . ((&lines * 22 + 23) / 47)
+exe 'vert 1resize ' . ((&columns * 83 + 83) / 167)
+exe '2resize ' . ((&lines * 22 + 23) / 47)
+exe 'vert 2resize ' . ((&columns * 83 + 83) / 167)
+exe 'vert 3resize ' . ((&columns * 83 + 83) / 167)
 tabnext 1
 if exists('s:wipebuf') && len(win_findbuf(s:wipebuf)) == 0 && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
   silent exe 'bwipe ' . s:wipebuf

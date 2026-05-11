@@ -22,30 +22,28 @@ tags:
     DONNNNNNNNE
 
 ## PR Summary
-- [ ] Toggling the reimburse related links on the employer dashboard
+- [x] Toggling the reimburse related links on the employer dashboard
   + `app/view_models/public/employers/employer_view_model.rb`
   + Currently using `!Rails.env.production?`
   + Instead use the reimburse scheme config
-- [ ] Scoping claims to the correct employer (specifically when an employee has
+- [x] Scoping claims to the correct employer (specifically when an employee has
   claims across multiple employers)
   + `app/view_models/public/employers/approvals_view_model.rb`
-  + Currently showing all of an employee's claims to their current employer
+    + Currently showing all of an employee's claims to their current employer
   + Currently showing none of an employee's claims to a previous employer
   + Instead show each employer the claims of their past and present employees,
     that were claimed during the employee's time with that employer
+- [x] Rename `ApprovalsController` to `MileageClaimsController`
+- [x] Reimburse cards should be easier to add to the dashboard
+- [x] Change route from `approvals` to `mileage_claims`
+- [x] Conditionalise the reimburse links on the dashboard
++ `app/javascript/employer/dashboard/Dashboard.tsx`
+- [/] Render reimbursementCents asd a formatted currency
++ `app/javascript/employer/dashboard/pages/approvals/components/ApprovalsTable.tsx`
 - [ ] Add pagination and optimize trip counting query
   + `app/view_models/public/employers/approvals_view_model.rb`
   + Compute trip count in SQL, or use a cache to store the count
-- [ ] Conditionalise the reimburse links on the dashboard
-  + `app/javascript/employer/dashboard/Dashboard.tsx`
-- [ ] Store getReimburseDashboardCards in a local variable instead of calling twice
-  + `app/javascript/employer/dashboard/pages/Home.tsx`
-- [ ] Render reimbursementCents asd a formatted currency
-  + `app/javascript/employer/dashboard/pages/approvals/components/ApprovalsTable.tsx`
 - [ ] Add screenshots of the frontend
-- [ ] Rename `ApprovalsController` to `MileageClaimsController`
 - [ ] Move loaders to the top of the page
   + `app/javascript/employer/dashboard/pages/approvals/components/ApprovalsTable.tsx`
-- [ ] Reimburse cards should be easier to add to the dashboard
 - [ ] Move seed stuff to reimburse scenario file
-- [ ] Change route from `approvals` to `mileage_claims`
