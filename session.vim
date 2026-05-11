@@ -11,7 +11,7 @@ endif
 let s:shortmess_save = &shortmess
 set shortmess+=aoO
 badd +13 in-use/current-tasks.md
-badd +38 in-use/tcs-139a-claims-index.md
+badd +41 in-use/tcs-139a-claims-index.md
 badd +1 daily-notes/2026-05-05.md
 badd +31 in-use/set-goodjob-timezones.md
 badd +21 inbox/riz-pipedrive-activity.md
@@ -61,12 +61,12 @@ setlocal foldlevel=99
 setlocal foldminlines=1
 setlocal foldnestmax=20
 setlocal foldenable
-let s:l = 35 - ((17 * winheight(0) + 11) / 22)
+let s:l = 37 - ((19 * winheight(0) + 11) / 22)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 35
-normal! 060|
+keepjumps 37
+normal! 012|
 lcd ~/notes
 wincmd w
 argglobal
@@ -117,7 +117,6 @@ keepjumps 41
 normal! 039|
 lcd ~/notes
 wincmd w
-3wincmd w
 exe '1resize ' . ((&lines * 22 + 23) / 47)
 exe 'vert 1resize ' . ((&columns * 83 + 83) / 167)
 exe '2resize ' . ((&lines * 22 + 23) / 47)
