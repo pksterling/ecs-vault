@@ -21,11 +21,12 @@ badd +1 in-use/tcs-139-employer-approvals.md
 badd +45 daily-notes/2026-05-06.md
 badd +20 daily-notes/2026-05-07.md
 badd +22 daily-notes/2026-05-08.md
-badd +39 daily-notes/2026-05-11.md
+badd +37 daily-notes/2026-05-11.md
+badd +15 daily-notes/2026-05-12.md
 argglobal
 %argdel
 $argadd daily-notes/2026-05-05.md
-edit daily-notes/2026-05-11.md
+edit daily-notes/2026-05-12.md
 let s:save_splitbelow = &splitbelow
 let s:save_splitright = &splitright
 set splitbelow splitright
@@ -46,13 +47,13 @@ set winminheight=0
 set winheight=1
 set winminwidth=0
 set winwidth=1
-exe '1resize ' . ((&lines * 22 + 23) / 47)
-exe 'vert 1resize ' . ((&columns * 83 + 83) / 167)
-exe '2resize ' . ((&lines * 22 + 23) / 47)
-exe 'vert 2resize ' . ((&columns * 83 + 83) / 167)
-exe 'vert 3resize ' . ((&columns * 83 + 83) / 167)
+exe '1resize ' . ((&lines * 27 + 28) / 57)
+exe 'vert 1resize ' . ((&columns * 65 + 65) / 130)
+exe '2resize ' . ((&lines * 27 + 28) / 57)
+exe 'vert 2resize ' . ((&columns * 65 + 65) / 130)
+exe 'vert 3resize ' . ((&columns * 64 + 65) / 130)
 argglobal
-balt daily-notes/2026-05-08.md
+balt daily-notes/2026-05-11.md
 setlocal foldmethod=indent
 setlocal foldexpr=0
 setlocal foldmarker={{{,}}}
@@ -61,12 +62,12 @@ setlocal foldlevel=99
 setlocal foldminlines=1
 setlocal foldnestmax=20
 setlocal foldenable
-let s:l = 39 - ((19 * winheight(0) + 11) / 22)
+let s:l = 18 - ((17 * winheight(0) + 13) / 27)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 39
-normal! 066|
+keepjumps 18
+normal! 036|
 lcd ~/notes
 wincmd w
 argglobal
@@ -83,12 +84,12 @@ setlocal foldlevel=99
 setlocal foldminlines=1
 setlocal foldnestmax=20
 setlocal foldenable
-let s:l = 4 - ((3 * winheight(0) + 11) / 22)
+let s:l = 13 - ((12 * winheight(0) + 13) / 27)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 4
-normal! 08|
+keepjumps 13
+normal! 035|
 lcd ~/notes
 wincmd w
 argglobal
@@ -109,19 +110,19 @@ setlocal foldenable
 sil! normal! zo
 30
 sil! normal! zo
-let s:l = 41 - ((17 * winheight(0) + 22) / 45)
+let s:l = 43 - ((23 * winheight(0) + 27) / 55)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 41
-normal! 039|
+keepjumps 43
+normal! 029|
 lcd ~/notes
 wincmd w
-exe '1resize ' . ((&lines * 22 + 23) / 47)
-exe 'vert 1resize ' . ((&columns * 83 + 83) / 167)
-exe '2resize ' . ((&lines * 22 + 23) / 47)
-exe 'vert 2resize ' . ((&columns * 83 + 83) / 167)
-exe 'vert 3resize ' . ((&columns * 83 + 83) / 167)
+exe '1resize ' . ((&lines * 27 + 28) / 57)
+exe 'vert 1resize ' . ((&columns * 65 + 65) / 130)
+exe '2resize ' . ((&lines * 27 + 28) / 57)
+exe 'vert 2resize ' . ((&columns * 65 + 65) / 130)
+exe 'vert 3resize ' . ((&columns * 64 + 65) / 130)
 tabnext 1
 if exists('s:wipebuf') && len(win_findbuf(s:wipebuf)) == 0 && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
   silent exe 'bwipe ' . s:wipebuf
