@@ -11,7 +11,7 @@ endif
 let s:shortmess_save = &shortmess
 set shortmess+=aoO
 badd +13 in-use/current-tasks.md
-badd +43 in-use/tcs-139a-claims-index.md
+badd +47 in-use/tcs-139a-claims-index.md
 badd +1 daily-notes/2026-05-05.md
 badd +31 in-use/set-goodjob-timezones.md
 badd +21 inbox/riz-pipedrive-activity.md
@@ -22,7 +22,7 @@ badd +45 daily-notes/2026-05-06.md
 badd +20 daily-notes/2026-05-07.md
 badd +22 daily-notes/2026-05-08.md
 badd +37 daily-notes/2026-05-11.md
-badd +32 daily-notes/2026-05-12.md
+badd +45 daily-notes/2026-05-12.md
 argglobal
 %argdel
 $argadd daily-notes/2026-05-05.md
@@ -62,12 +62,12 @@ setlocal foldlevel=99
 setlocal foldminlines=1
 setlocal foldnestmax=20
 setlocal foldenable
-let s:l = 32 - ((24 * winheight(0) + 13) / 27)
+let s:l = 45 - ((24 * winheight(0) + 13) / 27)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 32
-normal! 016|
+keepjumps 45
+normal! 026|
 lcd ~/notes
 wincmd w
 argglobal
@@ -110,12 +110,12 @@ setlocal foldenable
 sil! normal! zo
 30
 sil! normal! zo
-let s:l = 47 - ((27 * winheight(0) + 27) / 55)
+let s:l = 44 - ((24 * winheight(0) + 27) / 55)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 47
-normal! 031|
+keepjumps 44
+normal! 06|
 lcd ~/notes
 wincmd w
 exe '1resize ' . ((&lines * 27 + 28) / 57)
