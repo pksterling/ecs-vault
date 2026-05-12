@@ -38,12 +38,10 @@ tags:
 - [x] Change route from `approvals` to `mileage_claims`
 - [x] Conditionalise the reimburse links on the dashboard
 + `app/javascript/employer/dashboard/Dashboard.tsx`
-- [/] Render reimbursementCents asd a formatted currency
+- [x] Render reimbursementCents asd a formatted currency
 + `app/javascript/employer/dashboard/pages/approvals/components/ApprovalsTable.tsx`
 - [ ] Add pagination and optimize trip counting query
   + `app/view_models/public/employers/approvals_view_model.rb`
   + Compute trip count in SQL, or use a cache to store the count
 - [ ] Add screenshots of the frontend
-- [ ] Move loaders to the top of the page
-  + `app/javascript/employer/dashboard/pages/approvals/components/ApprovalsTable.tsx`
 - [ ] Move seed stuff to reimburse scenario file
