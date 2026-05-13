@@ -10,10 +10,10 @@ tags:
 
 ## Current
 - [ ] [[tcs-139-employer-approvals]]
-  - [/] [[tcs-139a-claims-index|TCS-139a - Claims index]]
+  - [?] [[tcs-139a-claims-index|TCS-139a - Claims index]]
+  - [/] [[tcs-139b-view-claim|TCS-139b - View claim]]
 
 ## Next
-- [ ] [[tcs-139b-view-claim|TCS-139b - View claim]]
 - [ ] [[tcs-139c-claim-approval|TCS-139c - Claim approval]]
 - [ ] [[tcs-139d-claim-rejection|TCS-139d - Claim rejection]]
 - [ ] [[tcs-139e-employee-claim-response|TCS-139e - Employee claim response]]

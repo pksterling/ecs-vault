@@ -40,8 +40,17 @@ tags:
 + `app/javascript/employer/dashboard/Dashboard.tsx`
 - [x] Render reimbursementCents asd a formatted currency
 + `app/javascript/employer/dashboard/pages/approvals/components/ApprovalsTable.tsx`
-- [ ] Add pagination and optimize trip counting query
+- [x] Move seed stuff to reimburse scenario file
+- [x] Add pagination and optimize trip counting query
   + `app/view_models/public/employers/approvals_view_model.rb`
   + Compute trip count in SQL, or use a cache to store the count
-- [ ] Add screenshots of the frontend
-- [ ] Move seed stuff to reimburse scenario file
+- [x] Add screenshots of the frontend
+
+## Re-reviewed PR
+- [x] Extra line in mileage claims view model spec
+- [x] Duplication in business overview
+- [x] Change employer id to null false in migration
+- [x] Rename serialize claim to present claim in view model (also maybe see
+  about other naming convention)
+- [ ] Maybe add cached data to mileage claim
+
