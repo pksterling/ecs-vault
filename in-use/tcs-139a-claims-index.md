@@ -52,5 +52,10 @@ tags:
 - [x] Change employer id to null false in migration
 - [x] Rename serialize claim to present claim in view model (also maybe see
   about other naming convention)
-- [ ] Maybe add cached data to mileage claim
+- [x] Maybe add cached data to mileage claim
+  + Check for a service for creating a claim and then add the cached columns to
+    it
 
+## Re-re-reviewed PR
+- Team decisions: use the employment association to link to employee/employer
+- Just checking with #person/alex-blair
