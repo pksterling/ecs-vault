@@ -17,4 +17,9 @@ tags: []
 - cba waiting for the discussion to play out - I'm using the event data
 
 ### Vibes
-
+Got to the point of the view model working
+Ummed and Ahhed over event data - seems a bit messy but stefan encouraged me to
+stick with it
+It's actually fine, just requires some pre-loading data into some hashes keyed
+to ids
+Next up   appears to be api endpoint

@@ -144,6 +144,7 @@ keepjumps 25
 normal! 036|
 lcd ~/notes
 wincmd w
+3wincmd w
 exe '1resize ' . ((&lines * 19 + 21) / 42)
 exe 'vert 1resize ' . ((&columns * 74 + 75) / 150)
 exe '2resize ' . ((&lines * 20 + 21) / 42)
