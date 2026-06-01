@@ -10,51 +10,20 @@ if expand('%') == '' && !&modified && line('$') <= 1 && getline(1) == ''
 endif
 let s:shortmess_save = &shortmess
 set shortmess+=aoO
-badd +13 in-use/current-tasks.md
-badd +1 in-use/tcs-139a-claims-index.md
-badd +1 daily-notes/2026-05-05.md
-badd +31 in-use/set-goodjob-timezones.md
+badd +14 in-use/current-tasks.md
 badd +7 in-use/riz-pipedrive-activity.md
-badd +12 archived/charge-scheme-activities-for-evs.md
-badd +22 daily-notes/2026-04-20.md
-badd +13 in-use/tcs-139-employer-approvals.md
-badd +45 daily-notes/2026-05-06.md
-badd +20 daily-notes/2026-05-07.md
-badd +22 daily-notes/2026-05-08.md
-badd +37 daily-notes/2026-05-11.md
-badd +43 daily-notes/2026-05-12.md
-badd +38 daily-notes/2026-05-13.md
-badd +6 in-use/tcs-139d-claim-rejection.md
-badd +16 daily-notes/2026-05-14.md
-badd +1 daily-notes/2026-05-15.md
-badd +113 in-use/next-demo-slides.md
-badd +10 archived/investigate-reminder-email-error.md
-badd +11 in-use/tcs-139b-view-claim.md
-badd +24 daily-notes/2026-05-18.md
-badd +6 in-use/tcs-139c-claim-approval.md
-badd +8 permanent_notes/amend-incorrect-initial-odo-reading-snippet.md
-badd +34 daily-notes/2026-05-20.md
-badd +6 archived/upgrade-ruby-4-0-4.md
-badd +5 in-use/vulnerability-scanner-issues.md
-badd +28 daily-notes/2026-05-21.md
-badd +6 archived/fix-net-imap-vulnerability.md
-badd +9 in-use/side-quests.md
-badd +7 permanent_notes/remove-gem-directories-in-dockerfile-snippet.md
-badd +18805 ~/repos/ecs-calculator-app/.worktrees/employer-approvals-claim-index/db/structure.sql
-badd +98 ~/repos/ecs-calculator-app/app/models/charge_scheme/contracts/can_onboard_quote.rb
-badd +1 ~/repos/ecs-calculator-app/.worktrees/employer-approvals-claim-index/app/models/reimburse_scheme/reimburse_order.rb
+badd +12 daily-notes/2026-05-15.md
 badd +1 ~/repos/ecs-calculator-app/.worktrees/employer-approvals-claim-index/app/view_models/public/employers/mileage_claims_view_model.rb
 badd +1 diffview:///panels/13/DiffviewFilePanel
-badd +3 ~/repos/ecs-calculator-app/.git/worktrees/employer-approvals-claim-index/COMMIT_EDITMSG
-badd +1 diffview://null
-badd +528 ~/.dotfiles/.config/nvim/init.lua
-badd +55 ~/repos/ecs-calculator-app/.worktrees/employer-approvals-claim-index/db/seeds/scenarios/reimburse_scheme_only_employer.rb
-badd +6 in-use/reimburse-employer-approvals-issues.md
-badd +23 daily-notes/2026-05-22.md
+badd +2 daily-notes/2026-05-29.md
+badd +1 inbox/tcs-139e-employee-resubmission.md
+badd +32 daily-notes/2026-06-01.md
+badd +16 inbox/tcs-139f-claim-filtering.md
+badd +25 inbox/tcs-140-audit-log.md
 argglobal
 %argdel
-$argadd daily-notes/2026-05-05.md
-edit daily-notes/2026-05-22.md
+$argadd daily-notes/2026-05-29.md
+edit daily-notes/2026-06-01.md
 let s:save_splitbelow = &splitbelow
 let s:save_splitright = &splitright
 set splitbelow splitright
@@ -75,13 +44,13 @@ set winminheight=0
 set winheight=1
 set winminwidth=0
 set winwidth=1
-exe '1resize ' . ((&lines * 33 + 34) / 69)
-exe 'vert 1resize ' . ((&columns * 110 + 110) / 220)
-exe '2resize ' . ((&lines * 33 + 34) / 69)
-exe 'vert 2resize ' . ((&columns * 110 + 110) / 220)
-exe 'vert 3resize ' . ((&columns * 109 + 110) / 220)
+exe '1resize ' . ((&lines * 19 + 21) / 42)
+exe 'vert 1resize ' . ((&columns * 74 + 75) / 150)
+exe '2resize ' . ((&lines * 20 + 21) / 42)
+exe 'vert 2resize ' . ((&columns * 74 + 75) / 150)
+exe 'vert 3resize ' . ((&columns * 75 + 75) / 150)
 argglobal
-balt daily-notes/2026-05-21.md
+balt daily-notes/2026-05-29.md
 setlocal foldmethod=expr
 setlocal foldexpr=v:lua.vim.treesitter.foldexpr()
 setlocal foldmarker={{{,}}}
@@ -92,12 +61,23 @@ setlocal foldnestmax=20
 setlocal foldenable
 7
 sil! normal! zo
-let s:l = 23 - ((22 * winheight(0) + 16) / 33)
+14
+sil! normal! zo
+18
+sil! normal! zo
+29
+sil! normal! zo
+let s:l = 32 - ((16 * winheight(0) + 9) / 19)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 23
-normal! 065|
+keepjumps 32
+let s:c = 30 - ((21 * winwidth(0) + 37) / 74)
+if s:c > 0
+  exe 'normal! ' . s:c . '|zs' . 30 . '|'
+else
+  normal! 030|
+endif
 lcd ~/notes
 wincmd w
 argglobal
@@ -105,29 +85,7 @@ if bufexists(fnamemodify("~/notes/in-use/current-tasks.md", ":p")) | buffer ~/no
 if &buftype ==# 'terminal'
   silent file ~/notes/in-use/current-tasks.md
 endif
-balt ~/notes/in-use/riz-pipedrive-activity.md
-setlocal foldmethod=indent
-setlocal foldexpr=0
-setlocal foldmarker={{{,}}}
-setlocal foldignore=#
-setlocal foldlevel=99
-setlocal foldminlines=1
-setlocal foldnestmax=20
-setlocal foldenable
-let s:l = 16 - ((8 * winheight(0) + 16) / 33)
-if s:l < 1 | let s:l = 1 | endif
-keepjumps exe s:l
-normal! zt
-keepjumps 16
-normal! 0
-lcd ~/notes
-wincmd w
-argglobal
-if bufexists(fnamemodify("~/notes/in-use/tcs-139b-view-claim.md", ":p")) | buffer ~/notes/in-use/tcs-139b-view-claim.md | else | edit ~/notes/in-use/tcs-139b-view-claim.md | endif
-if &buftype ==# 'terminal'
-  silent file ~/notes/in-use/tcs-139b-view-claim.md
-endif
-balt ~/notes/in-use/current-tasks.md
+balt ~/notes/inbox/tcs-140-audit-log.md
 setlocal foldmethod=expr
 setlocal foldexpr=v:lua.vim.treesitter.foldexpr()
 setlocal foldmarker={{{,}}}
@@ -136,19 +94,61 @@ setlocal foldlevel=99
 setlocal foldminlines=1
 setlocal foldnestmax=20
 setlocal foldenable
-let s:l = 11 - ((10 * winheight(0) + 33) / 67)
+9
+sil! normal! zo
+11
+sil! normal! zo
+12
+sil! normal! zo
+18
+sil! normal! zo
+21
+sil! normal! zo
+25
+sil! normal! zo
+39
+sil! normal! zo
+let s:l = 18 - ((11 * winheight(0) + 10) / 20)
 if s:l < 1 | let s:l = 1 | endif
 keepjumps exe s:l
 normal! zt
-keepjumps 11
+keepjumps 18
 normal! 0
 lcd ~/notes
 wincmd w
-exe '1resize ' . ((&lines * 33 + 34) / 69)
-exe 'vert 1resize ' . ((&columns * 110 + 110) / 220)
-exe '2resize ' . ((&lines * 33 + 34) / 69)
-exe 'vert 2resize ' . ((&columns * 110 + 110) / 220)
-exe 'vert 3resize ' . ((&columns * 109 + 110) / 220)
+argglobal
+if bufexists(fnamemodify("~/notes/inbox/tcs-140-audit-log.md", ":p")) | buffer ~/notes/inbox/tcs-140-audit-log.md | else | edit ~/notes/inbox/tcs-140-audit-log.md | endif
+if &buftype ==# 'terminal'
+  silent file ~/notes/inbox/tcs-140-audit-log.md
+endif
+balt ~/notes/daily-notes/2026-06-01.md
+setlocal foldmethod=expr
+setlocal foldexpr=v:lua.vim.treesitter.foldexpr()
+setlocal foldmarker={{{,}}}
+setlocal foldignore=#
+setlocal foldlevel=99
+setlocal foldminlines=1
+setlocal foldnestmax=20
+setlocal foldenable
+6
+sil! normal! zo
+12
+sil! normal! zo
+13
+sil! normal! zo
+let s:l = 25 - ((24 * winheight(0) + 20) / 40)
+if s:l < 1 | let s:l = 1 | endif
+keepjumps exe s:l
+normal! zt
+keepjumps 25
+normal! 036|
+lcd ~/notes
+wincmd w
+exe '1resize ' . ((&lines * 19 + 21) / 42)
+exe 'vert 1resize ' . ((&columns * 74 + 75) / 150)
+exe '2resize ' . ((&lines * 20 + 21) / 42)
+exe 'vert 2resize ' . ((&columns * 74 + 75) / 150)
+exe 'vert 3resize ' . ((&columns * 75 + 75) / 150)
 tabnext 1
 if exists('s:wipebuf') && len(win_findbuf(s:wipebuf)) == 0 && getbufvar(s:wipebuf, '&buftype') isnot# 'terminal'
   silent exe 'bwipe ' . s:wipebuf

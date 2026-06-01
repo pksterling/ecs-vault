@@ -10,19 +10,20 @@ tags:
 
 ## Current
 - [ ] [[tcs-139-employer-approvals]]
-  - [?] [[tcs-139a-claims-index|TCS-139a - Claims index]]
-  - [/] [[tcs-139b-view-claim|TCS-139b - View claim]]
-  - [/] [[tcs-139c-claim-approval|TCS-139c - Claim approval]]
+  - [?] [[tcs-139d-claim-rejection|TCS-139d - Claim rejection]]
+  - [/] [[tcs-139e-employee-resubmission]]
+  - [-] [[tcs-139f-claim-filtering|TCS-139f - Claim filtering]]
+- [/] [[tcs-140-audit-log]]
 
 ## Next
-- [ ] [[tcs-139d-claim-rejection|TCS-139d - Claim rejection]]
-- [ ] [[tcs-139e-employee-claim-response|TCS-139e - Employee claim response]]
-- [ ] [[tcs-139f-claim-filtering|TCS-139f - Claim filtering]]
 - [-] [[upgrade-ruby-4-0-4]]
 
 ## [[next-demo]]
+- [*] [[tcs-139b-view-claim|TCS-139b - View claim]]
+- [*] [[tcs-139c-claim-approval|TCS-139c - Claim approval]]
 
 ## Completed
+  - [x] [[tcs-139a-claims-index|TCS-139a - Claims index]]
 - [x] [[fix-net-imap-vulnerability]]
 - [x] [[set-goodjob-timezones|Set goodjob timezones]]
 - [x] [[missin-initial-reading-slack-bot|Missing initial reading slack bot]]

@@ -59,3 +59,7 @@ tags:
 ## Re-re-reviewed PR
 - Team decisions: use the employment association to link to employee/employer
 - Just checking with #person/alex-blair
+
+## Did the employment association work?
+- Did it fuck!
+- Reversing it
