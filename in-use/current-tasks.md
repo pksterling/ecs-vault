@@ -9,11 +9,12 @@ tags:
 # April Tasks
 
 ## Current
-- [ ] [[tcs-139-employer-approvals]]
+- [/] [[tcs-139-employer-approvals]]
   - [?] [[tcs-139d-claim-rejection|TCS-139d - Claim rejection]]
   - [/] [[tcs-139e-employee-resubmission]]
-  - [-] [[tcs-139f-claim-filtering|TCS-139f - Claim filtering]]
 - [/] [[tcs-140-audit-log]]
+- [/] [[tcs-139f-claim-filtering|TCS-139f - Claim filtering]]
+- [/] [[tcs-141-approvers]]
 
 ## Next
 - [-] [[upgrade-ruby-4-0-4]]
