@@ -10,3 +10,4 @@ tags: []
 - Pagination appears with an unlimited number of pages in the admin employees
     page
 - [[vulnerability-scanner-issues]]
+- Upgrade Ruby

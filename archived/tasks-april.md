@@ -1,30 +1,30 @@
 ---
-id: april-tasks
+id: tasks-april
 aliases: []
 tags:
   - #planning
   - #cycle/april
 ---
 
-# April Tasks
+# Tasks - April
 
 ## Current
-- [/] [[tcs-139-employer-approvals]]
-  - [?] [[tcs-139d-claim-rejection|TCS-139d - Claim rejection]]
-  - [/] [[tcs-139e-employee-resubmission]]
-- [/] [[tcs-140-audit-log]]
-- [/] [[tcs-139f-claim-filtering|TCS-139f - Claim filtering]]
 - [/] [[tcs-141-approvers]]
 
 ## Next
 - [-] [[upgrade-ruby-4-0-4]]
 
 ## [[next-demo]]
-- [*] [[tcs-139b-view-claim|TCS-139b - View claim]]
-- [*] [[tcs-139c-claim-approval|TCS-139c - Claim approval]]
 
 ## Completed
+- [x] [[tcs-139-employer-approvals]]
   - [x] [[tcs-139a-claims-index|TCS-139a - Claims index]]
+  - [x] [[tcs-139b-view-claim|TCS-139b - View claim]]
+  - [x] [[tcs-139c-claim-approval|TCS-139c - Claim approval]]
+  - [x] [[tcs-139d-claim-rejection|TCS-139d - Claim rejection]]
+  - [x] [[tcs-139e-employee-resubmission]]
+  - [x] [[tcs-139f-claim-filtering|TCS-139f - Claim filtering]]
+- [x] [[tcs-140-audit-log]]
 - [x] [[fix-net-imap-vulnerability]]
 - [x] [[set-goodjob-timezones|Set goodjob timezones]]
 - [x] [[missin-initial-reading-slack-bot|Missing initial reading slack bot]]
