@@ -4,7 +4,7 @@ aliases:
   - TCS-109 - Autosubmit for early odo submitters
 tags:
   - #cycle/march
-  - #ruby-rails
+  - #rails
   - #task
 ---
 

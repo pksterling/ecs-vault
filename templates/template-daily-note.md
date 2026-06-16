@@ -1,3 +1,10 @@
+---
+id: {{date:YYYY-MM-DD}}
+aliases: []
+tags:
+  - #daily-notes
+---
+
 # {{date:dddd Do MMM [']YY}}
 
 > [!GOALS] GOALS

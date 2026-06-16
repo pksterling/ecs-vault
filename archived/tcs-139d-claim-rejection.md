@@ -3,7 +3,7 @@ id: tcs-139d-claim-rejection
 aliases: []
 tags:
   - #task
-  - #cylcle/april
+  - #cycle/april
 ---
 # tcs-139d-claim-rejection
 

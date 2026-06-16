@@ -4,7 +4,7 @@ aliases: []
 tags:
   - #cycle/march
   - #task
-  - #ruby-rails
+  - #rails
   - #rspec
 ---
 

@@ -3,7 +3,7 @@ id: tcs-139b-view-claim
 aliases: []
 tags:
   - #task
-  - #cylcle/april
+  - #cycle/april
 ---
 # tcs-139b-view-claim
 

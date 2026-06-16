@@ -3,7 +3,7 @@ id: tcs-139c-claim-approval
 aliases: []
 tags:
   - #task
-  - #cylcle/april
+  - #cycle/april
 ---
 # tcs-139c-claim-approval
 

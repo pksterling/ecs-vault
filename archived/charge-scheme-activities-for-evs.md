@@ -16,7 +16,7 @@ gets sent to pipedrive
 
 ## Task 1
 - Pipedrive automation: Scheduling EVS post delivery call
-- Pass task to #person/shahryuk
+- Pass task to #person/shahrukh
 
 ## Finding Charge Scheme - Post Delivery Check In
 - cron job `create_post_delivery_checkup_activities` runs monday to friday at
