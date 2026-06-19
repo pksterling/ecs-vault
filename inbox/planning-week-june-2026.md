@@ -7,7 +7,7 @@ tags:
 ---
 # planning-week-june-2026
 - [[mini-kick-off-with-stefan|Mini kick-off w/ #person/stefan]]
-- [[Reimburse Employee Onboarding|Employee Onboarding]]
+- [[reimburse-employee-onboarding|Employee Onboarding]]
 - [[role-based-employer-access|Role Based Employer Access]] - Leighton/Peyton
 - [[approval-groups|Approval Groups]] - Peyton
 

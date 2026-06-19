@@ -15,13 +15,12 @@ _Planning note: [[reimburse-employee-onboarding]]_
 
 As an admin user, I can:
 
-* Create a reimburse order for an employee by providing their vehicle registration, vehicle ownership (personal/company), fuel type, engine size band (if applicable), and activation date
-* See a validation error if the combination of ownership, fuel type, and strategy is invalid
+* Create a reimburse order for an employee by providing their vehicle
+  registration, vehicle ownership (personal/company)
 
 ## Considerations
 
-* No `CreateReimburseOrder` service exists — this is the foundational piece for any onboarding path
-* Strategy should be derived automatically from `vehicle_ownership` + `fuel_type` using `ReimburseOrder::STRATEGY_TO_PERMITTED_CONFIG` — caller should not need to specify it
-* `engine_size_band` is required for AFR (company + petrol/diesel) orders; `business_mileage_in_first_year` is required for AMAP (personal vehicle) orders
-* The `car` association requires a `Cars::Car` record — for EVs this can be resolved via CapHPI (`FindElectricCarFromVrm`); for non-EVs a fallback or manual car_id input is needed for now
-* No employer portal UI in this issue — backend service only
+* No `CreateReimburseOrder` service exists
+* Strategy should be derived automatically from `vehicle_ownership` +
+  `fuel_type`
+* We currently use the CapHPI API for EV vehicle lookup
