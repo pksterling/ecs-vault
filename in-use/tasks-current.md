@@ -9,8 +9,7 @@ tags:
 # Tasks - June
 
 ## Current
-- [?] [[mileage-claim-approval-employee-portal]]
-- [?] [[recalculate-mileage-claim-totals-when-employee-updates-a-trip|Recalculate mileage claim totals when employee updates a trip]]
+- [/] [[track-employer-portal-usage]]
 - [ ] [[reimburse-employee-onboarding-planning]]
 - [ ] [[role-based-employer-access-planning]]
 - [ ] [[reimburse-approval-groups-planning]]
@@ -22,5 +21,5 @@ tags:
 ## [[next-demo]]
 
 ## Completed
-
-## 󰭟 Batman
+- [x] [[recalculate-mileage-claim-totals-when-employee-updates-a-trip|Recalculate mileage claim totals when employee updates a trip]]
+- [x] [[mileage-claim-approval-employee-portal]]
