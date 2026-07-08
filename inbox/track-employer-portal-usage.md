@@ -10,16 +10,21 @@ _[Linear project](https://linear.app/electriccarscheme/project/reimburse-track-e
 
 ## Tasks
 
-- [[tcs-167-posthog-identity-tracking]]
-- [[tcs-169-track-downloads]]
-- [[tcs-176-query-ph-data-on-ph]]
-- [[tcs-179-query-ph-data-from-claude-via-mcp-to-ph]]
-- [[tcs-178-ph-session-replays]]
-- [[tcs-168-export-posthog-data-to-bigquery]]
-- [[tcs-177-use-level-2-downloads]]
+- [[page-view-events-reimburse]]
+
+- [-] [[tcs-167-posthog-identity-tracking]]
+- [-] [[tcs-169-track-downloads]]
+- [-] [[tcs-176-query-ph-data-on-ph]]
+- [-] [[tcs-179-query-ph-data-from-claude-via-mcp-to-ph]]
+- [-] [[tcs-178-ph-session-replays]]
+- [-] [[tcs-168-export-posthog-data-to-bigquery]]
+- [-] [[tcs-177-use-level-2-downloads]]
 
 ## Notes
+- [[reimburse-tracking-convo-blair-stefan]]
 - [[posthog-consent-gdpr-notes]]
+- [[employer-tracking-consent-tiers]]
+- [[more-gdpr-notes]]
 
 ## Planning
 

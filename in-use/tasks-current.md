@@ -9,8 +9,9 @@ tags:
 # Tasks - June
 
 ## Current
-- [/] [[track-employer-portal-usage]]
-- [ ] [[reimburse-employee-onboarding-planning]]
+- [?] [[track-employer-portal-usage]]
+- [/] [[employer-portal-tracking-reporting]]
+- [/] [[reimburse-employee-onboarding-planning]]
 - [ ] [[role-based-employer-access-planning]]
 - [ ] [[reimburse-approval-groups-planning]]
 

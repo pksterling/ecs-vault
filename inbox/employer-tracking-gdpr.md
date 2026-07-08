@@ -6,6 +6,12 @@ tags: []
 # employer-tracking-gdpr
 _[Copied to Notion](https://app.notion.com/p/Data-Protection-GDPR-PECR-390b5f6a3cf080d4bae1d10e20c9474d?source=copy_link)_
 
+## Linked notes
+- [[posthog-consent-gdpr-notes]]
+- [[employer-tracking-consent-tiers]]
+- [[more-gdpr-notes]]
+- [[reimburse-tracking-convo-blair-stefan]]
+
 ## tl;dr
 - Aggregated data, helping us see how the app is used, should be fine
 - Company-specific tracking might be difficult without consent
@@ -77,8 +83,3 @@ _[Copied to Notion](https://app.notion.com/p/Data-Protection-GDPR-PECR-390b5f6a3
 - Session replays will definitely require consent, both due to the necessary use
   of cookies (PECR), and because of the intrusive nature of it (GDPR)
 - Cross-session user flows (conversion funnels) would need cookie consent
-
-## Linked notes
-- [[posthog-consent-gdpr-notes]]
-- [[employer-tracking-consent-tiers]]
-- [[more-gdpr-notes]]
