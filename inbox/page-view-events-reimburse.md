@@ -5,6 +5,51 @@ tags: []
 ---
 # page-view-events-reimburse
 
+## PR Comments
+## PR #7458: Employer Portal Interactions
+
+**[2026-07-08 13:01:34] stefanjcollier** — `app/javascript/employer/hooks/useEmployerPortalInteractionTracking.ts:1`
+
+Neat trick, I was wondering how we would do that!
+
+---
+
+**[2026-07-08 13:02:03] stefanjcollier** — `app/javascript/employer/hooks/useEmployerPortalInteractionTracking.ts:7`
+
+Does this remove the URL params?
+I think we should, otherwise it'll get noisy
+
+---
+
+**[2026-07-08 15:12:15] stefanjcollier** — `app/javascript/employer/employerPortalInteractions.ts:6`
+
+```suggestion
+export const EMPLOYER_PORTAL_INTERACTIONS: Record<Camelize<Interaction>, Interaction> = {
+```
+
+---
+
+**[2026-07-08 15:55:52] stefanjcollier** — `app/javascript/employer/dashboard/components/Footer.tsx:75`
+
+👋 noob here
+
+Are we confident this does not remove the link behaviour? 
+I don't know enough html to be certain.
+
+---
+
+**[2026-07-08 15:57:50] stefanjcollier** — `app/javascript/employer/api.ts:61`
+
+The `.catch` looks to hide a failure but also drop the error. 
+Can we alert appsignal and continue to hide the error from the user?
+
+---
+
+**[2026-07-08 16:06:45] stefanjcollier** — `app/javascript/employer/credit_applications/steps/FunderPrimaryContactForm.tsx:214`
+
+There's a good few `<a` link to download. 
+Would some sort of component for this make it better or worse .e.g. `TrackedDownloadLink`
+
 ## Running notes
 - Manually testing contracts, CSV, and trips
 ---

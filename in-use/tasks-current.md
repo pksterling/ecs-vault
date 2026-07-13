@@ -10,8 +10,8 @@ tags:
 
 ## Current
 - [?] [[track-employer-portal-usage]]
-- [/] [[employer-portal-tracking-reporting]]
 - [/] [[reimburse-employee-onboarding-planning]]
+- [/] [[employer-portal-tracking-reporting]]
 - [ ] [[role-based-employer-access-planning]]
 - [ ] [[reimburse-approval-groups-planning]]
 
