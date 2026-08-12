@@ -9,17 +9,20 @@ tags:
 # Tasks - June
 
 ## Current
-- [?] [[track-employer-portal-usage]]
-- [?] [[reimburse-employee-onboarding]]
-- [-] [[role-based-employer-access-planning]]
-- [-] [[reimburse-approval-groups-planning]]
+- [*] [[track-employer-portal-usage]]
+- [/] [[product-selection-qualification-flow]]
+- [/] [[quote-retrieval]]
+- [/] [[reimburse-prevent-future-trips]]
 
 ## Next
-- [/] [[tcs-141-approvers]]
-- [-] [[upgrade-ruby-4-0-4]]
 
 ## [[next-demo]]
 
 ## Completed
+- [x] [[carl-0-reimbursement]]
+- [x] [[reimburse-employee-onboarding]]
 - [x] [[recalculate-mileage-claim-totals-when-employee-updates-a-trip|Recalculate mileage claim totals when employee updates a trip]]
 - [x] [[mileage-claim-approval-employee-portal]]
+
+- [-] [[role-based-employer-access-planning]]
+- [-] [[reimburse-approval-groups-planning]]

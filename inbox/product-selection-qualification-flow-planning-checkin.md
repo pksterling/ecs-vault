@@ -1,10 +1,9 @@
 ---
-id: product-selection-qualification-flow-planning-checkin
+id: product-selection-qualification-meeting-lucas
 aliases: []
 tags: []
 ---
-# product-selection-qualification-flow-planning-checkin
-_w/ #person/lucas_
+# product-selection-qualification-meeting-lucas
 
 ## Product selection
 - The linear design shows the product selection with the following:
