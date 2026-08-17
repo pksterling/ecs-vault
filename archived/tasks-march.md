@@ -14,11 +14,11 @@ tags:
 - [ ] Write reviews on glassdoor and google reviews
 - [ ] TCS-120: Exporting to Reporting
 ---
-- [x] [[skip-invalid-charge-orders-within-reminder-job|Skip invalid charge orders within reminder job]]
+- [x] Skip invalid charge orders within reminder job
 - [x] [[reverse-non-compliant-autosubmission-changes|Reverse non-compliant autosubmission changes]]
 - [x] [[investigate-reminder-email-error|Investigate reminder email error]]
 - [x] [[fix-autosubmission-dividebyzero-bug|fix autosubmission dividebyzero bug]]
-- [x] [[demo-fri-27th-march|Demo: Fri 27th March]]
+- [x] Demo: Fri 27th March
 - [x] [[fix-autosubmission-bug]]
 - [x] [[demo-fri-13th-march|Demo: Fri 13th March]]
 - [x] [[create-queuesjob-matcher|Create `queues_job` matcher]]

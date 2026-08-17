@@ -15,13 +15,13 @@ related: []
 
 ## Next
 
-## [[next-demo]]
+## Next demo
 
 ## Completed
 - [x] [[carl-0-reimbursement]]
 - [x] [[reimburse-employee-onboarding]]
 - [x] [[recalculate-mileage-claim-totals-when-employee-updates-a-trip|Recalculate mileage claim totals when employee updates a trip]]
-- [x] [[mileage-claim-approval-employee-portal]]
+- [x] Mileage claim approval employee portal
 
-- [-] [[role-based-employer-access-planning]]
-- [-] [[reimburse-approval-groups-planning]]
+- [-] [[role-based-employer-access]]
+- [-] Reimburse approval groups planning

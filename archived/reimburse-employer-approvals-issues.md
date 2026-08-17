@@ -7,7 +7,7 @@ tags:
 ---
 # Reimburse Employer Approvals Issues
 ## Issues
-### [[TCS-139 - Employer approvals]]
+### [[tcs-139-employer-approvals|TCS-139 - Employer approvals]]
 #### User Stories
 - As an employer admin user, I can:
   + See a list of claims

@@ -9,12 +9,12 @@ tags:
 # Tasks - April
 
 ## Current
-- [/] [[tcs-141-approvers]]
+- [/] TCS-141 Approvers
 
 ## Next
 - [-] [[upgrade-ruby-4-0-4]]
 
-## [[next-demo]]
+## Next demo
 
 ## Completed
 - [x] [[tcs-139-employer-approvals]]
@@ -28,7 +28,7 @@ tags:
 - [x] [[fix-net-imap-vulnerability]]
 - [x] [[set-goodjob-timezones|Set goodjob timezones]]
 - [x] [[missin-initial-reading-slack-bot|Missing initial reading slack bot]]
-- [x] [[skip-invalid-charge-orders-within-reminder-job|Skip invalid charge orders within reminder job]]
+- [x] Skip invalid charge orders within reminder job
 - [x] [[reverse-non-compliant-autosubmission-changes|Reverse non-compliant autosubmission changes]]
 - [x] [[investigate-reminder-email-error|Investigate reminder email error]]
 - [x] [[fix-autosubmission-dividebyzero-bug|fix autosubmission dividebyzero bug]]
