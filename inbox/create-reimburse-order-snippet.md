@@ -1,7 +1,9 @@
 ---
 id: create-reimburse-order-snippet
 aliases: []
-tags: []
+tags:
+  - #snippet
+  - #rails
 ---
 # create-reimburse-order-snippet
 
@@ -38,3 +40,8 @@ service.valid?  # check before calling
 service.errors  # if not
 service.call
 ```
+
+---
+
+## Related
+- [[draft-issue-bulk-reimburse-order-creation]]

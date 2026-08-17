@@ -1,7 +1,8 @@
 ---
 id: discussing-posthog-vs-hotjar
 aliases: []
-tags: []
+tags:
+  - #cycle/june
 ---
 # discussing-posthog-vs-hotjar
 - #person/trent
@@ -24,3 +25,7 @@ tags: []
     clicked after that is great - that combined with the session tracking is
     more than enough
 
+---
+
+## Related
+- [[posthog-hotjar-final-notes]]

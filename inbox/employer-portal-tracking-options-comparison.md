@@ -258,3 +258,10 @@ immediately useful for watching sessions.
 trail. If specific meaningful employer actions are worth recording (e.g.
 "employer downloaded year-end documents" as a business event that might trigger
 follow-up), add them as admin events — not as page tracking.
+
+---
+
+## Related
+- [[tcs-167-posthog-identity-tracking]]
+- [[posthog-consent-gdpr-notes]]
+- [[tcs-178-ph-session-replays]]

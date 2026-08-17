@@ -1,7 +1,9 @@
 ---
 id: more-gdpr-notes
 aliases: []
-tags: []
+tags:
+  - #gdpr
+parent: "[[employer-tracking-gdpr]]"
 ---
 # more-gdpr-notes
 
@@ -37,3 +39,9 @@ tags: []
   identifying/sensitive info.
 - Golden rule: if there's no way to link the data back to an actual person,
   you're generally outside GDPR's scope.
+
+---
+
+## Related
+- [[employer-tracking-consent-tiers]]
+- [[posthog-consent-gdpr-notes]]

@@ -1,7 +1,8 @@
 ---
 id: stefan-weekly-2026-06-24
 aliases: []
-tags: []
+tags:
+  - #personal-development
 ---
 # stefan-weekly-2026-06-24
 
@@ -20,3 +21,8 @@ tags: []
   + Speak to #person/oleg about marketing use of hotjar
   + Look at amount of hits on the employer portal to gauge pricing
   + **DEADLINE:** EOD Friday
+
+---
+
+## Related
+- [[track-employer-portal-usage]]

@@ -47,3 +47,9 @@ with hotjar is it sounds like it might be easier to setup
     lack of use of hotjar
   + Related marketing work will commence in the short-to-mid term
   + Very interested in AB testing, which hotjar doesn't support
+
+---
+
+## Related
+- [[employer-portal-tracking-options-comparison]]
+- [[tcs-167-posthog-identity-tracking]]

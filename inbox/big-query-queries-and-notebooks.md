@@ -1,7 +1,9 @@
 ---
 id: big-query-queries-and-notebooks
 aliases: []
-tags: []
+tags:
+  - #reference
+  - #sql
 ---
 # big-query-queries-and-notebooks
 ## Convo w/ #person/alex-fakhri
@@ -11,3 +13,9 @@ tags: []
 
 ## Notes
 - A view that smushes the events shards together would be useful
+
+---
+
+## Related
+- [[tcs-168-export-posthog-data-to-bigquery]]
+- [[tcs-176-query-ph-data-on-ph]]

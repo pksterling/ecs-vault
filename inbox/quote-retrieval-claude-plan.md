@@ -1,7 +1,11 @@
 ---
 id: quote-retrieval-claude-plan
 aliases: []
-tags: []
+tags:
+  - #planning
+  - #cycle/july
+  - #nzhs
+parent: "[[quote-retrieval]]"
 ---
 # quote-retrieval-claude-plan
 
@@ -68,3 +72,8 @@ Data/services:
 - On resume, re-run qualification/pricing or show what they originally saw? (stale-supplier risk)
 - Access: logged-in only, or unique link (e.g. from email)?
 - Completed quotes: read-only, or "get an updated quote" re-runnable?
+
+---
+
+## Related
+- [[product-selection-qualification-claude-plan]]

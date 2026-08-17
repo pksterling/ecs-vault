@@ -1,7 +1,9 @@
 ---
 id: reimburse-prevent-future-trips
 aliases: []
-tags: []
+tags:
+  - #task
+  - #reimburse
 ---
 # reimburse-prevent-future-trips
 _[Linear ticket](https://linear.app/electriccarscheme/issue/TCS-182/un-submitted-future-trips-logic-in-claims)_
@@ -11,3 +13,8 @@ _[Linear ticket](https://linear.app/electriccarscheme/issue/TCS-182/un-submitted
 - [x] Future trips should be prevented from being submitted (but should be allowed,
   as an unsubmitted trip)
 - If a trip date is edited to be in the future, the trip should be unsubmitted
+
+---
+
+## Related
+- [[carl-0-reimbursement]]

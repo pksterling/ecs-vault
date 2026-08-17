@@ -1,7 +1,9 @@
 ---
 id: approval-groups
 aliases: []
-tags: []
+tags:
+  - #planning
+  - #task
 ---
 # Approval Groups
 _[Linear issue TCS-143](https://linear.app/electriccarscheme/issue/TCS-143/assign-employees-to-approvers-stretch-goal) — Reimburse. - Employer Approvals project_
@@ -64,3 +66,9 @@ This is a stretch goal and shouldn't block the core approval flow. Build the joi
 - Should unassigned employees default to visible to all approvers, or only to full-access admins?
 - Can employees be assigned to multiple approvers, or is it 1:1? (TCS-143 says multiple is "could be useful" — is that confirmed?)
 - Does the audit log need to be scoped by group too, or is it HR/full-access only?
+
+---
+
+## Related
+- [[draft-issue-assign-employees-to-approvers]]
+- [[role-based-employer-access]]

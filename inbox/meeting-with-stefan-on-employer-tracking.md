@@ -1,7 +1,9 @@
 ---
 id: meeting-with-stefan-on-employer-tracking
 aliases: []
-tags: []
+tags:
+  - #planning
+  - #cycle/june
 ---
 # meeting-with-stefan-on-employer-tracking
 - Use Posthog for user interaction tracking
@@ -23,3 +25,8 @@ tags: []
 - !Queryable via claude mcp
 - Other stuff, maybe maybe
 
+---
+
+## Related
+- [[tcs-167-posthog-identity-tracking]]
+- [[tcs-169-track-downloads]]

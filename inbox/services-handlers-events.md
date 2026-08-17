@@ -1,7 +1,9 @@
 ---
 id: services-handlers-events
 aliases: []
-tags: []
+tags:
+  - #reference
+  - #rails
 ---
 # services-handlers-events
 
@@ -19,3 +21,8 @@ tags: []
 
 ## Services as an event
 - Useful if you want to store the output of an event (or any custom data)
+
+---
+
+## Related
+- [[recalculate-mileage-claim-totals-when-employee-updates-a-trip]]

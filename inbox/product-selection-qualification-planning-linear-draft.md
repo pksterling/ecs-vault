@@ -4,6 +4,8 @@ aliases: []
 tags:
   - #planning
   - #cycle/july
+  - #draft-issue
+parent: "[[product-selection-qualification-flow]]"
 ---
 # Product Selection & Qualification Flow — Linear issue draft
 

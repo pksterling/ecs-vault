@@ -1,7 +1,8 @@
 ---
 id: reimburse-employee-onboarding
 aliases: []
-tags: []
+tags:
+  - #task
 ---
 # reimburse-employee-onboarding
 _[Linear issue](https://linear.app/electriccarscheme/issue/TCS-175/bulk-reimburse-order-creation)_
@@ -46,3 +47,10 @@ I think the service works as is..? Messaging stefan
 > - you cannot create an RO if you have more than one already
 >   + might be able to use the CanRunEngine contract for this one 
 > - if you've linked to a CO, your order must be business type and elec
+
+---
+
+## Related
+- [[reimburse-employee-onboarding-planning]]
+- [[draft-issue-bulk-reimburse-order-creation]]
+- [[create-reimburse-order-snippet]]

@@ -1,7 +1,9 @@
 ---
 id: recalculate-mileage-claim-totals-when-employee-updates-a-trip
 aliases: []
-tags: []
+tags:
+  - #task
+  - #rails
 ---
 # Recalculate mileage claim totals when employee updates a trip
 
@@ -24,3 +26,8 @@ Keep as an event - search "def make_event"
 Replace contract with a `halt_unless`
 
 ## [[services-handlers-events|Conversation with #person/stefan with events]]
+
+---
+
+## Related
+- [[services-handlers-events]]

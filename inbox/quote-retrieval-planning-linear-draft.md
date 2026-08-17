@@ -4,6 +4,8 @@ aliases: []
 tags:
   - #planning
   - #cycle/july
+  - #draft-issue
+parent: "[[quote-retrieval]]"
 ---
 # Employee Portal Quote Retrieval — Linear issue draft
 

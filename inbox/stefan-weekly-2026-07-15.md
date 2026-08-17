@@ -1,7 +1,8 @@
 ---
 id: stefan-weekly-2026-07-15
 aliases: []
-tags: []
+tags:
+  - #personal-development
 ---
 # stefan-weekly-2026-07-15
 
@@ -31,3 +32,8 @@ my productivity
 - Timebox tasks - especially exploratory ones - reach out regardless of how much
   has been achieved
 - Create two PRs a week
+
+---
+
+## Related
+- [[reimburse-employee-onboarding]]

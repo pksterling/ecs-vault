@@ -3,6 +3,7 @@ id: draft-issue-bulk-reimburse-order-creation
 aliases: []
 tags:
   - draft-issue
+parent: "[[reimburse-employee-onboarding]]"
 ---
 # Draft Issue: Bulk reimburse order creation
 _Project: Reimburse — MVP employee onboarding_
@@ -26,3 +27,8 @@ As an admin user, I can:
 * Strategy should be derived automatically from `vehicle_ownership` +
   `fuel_type`
 * We currently use the CapHPI API for EV vehicle lookup
+
+---
+
+## Related
+- [[reimburse-employee-onboarding-planning]]

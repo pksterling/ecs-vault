@@ -1,7 +1,10 @@
 ---
 id: product-selection-qualification-meeting-leighton
 aliases: []
-tags: []
+tags:
+  - #planning
+  - #cycle/july
+parent: "[[product-selection-qualification-flow]]"
 ---
 # product-selection-qualification-meeting-leighton
 
@@ -27,3 +30,8 @@ tags: []
     has_one :supplier
   end
   ```
+
+---
+
+## Related
+- [[product-selection-qualification-claude-plan]]

@@ -3,6 +3,8 @@ id: posthog-consent-gdpr-notes
 aliases: []
 tags:
   - #cycle/june
+  - #gdpr
+parent: "[[employer-tracking-gdpr]]"
 ---
 # posthog consent / cookies / gdpr
 ## Claude Summary
@@ -93,3 +95,9 @@ tags:
 
 ### Consent
 - We
+
+---
+
+## Related
+- [[employer-tracking-consent-tiers]]
+- [[tcs-167-posthog-identity-tracking]]

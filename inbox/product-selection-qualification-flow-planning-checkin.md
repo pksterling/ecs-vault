@@ -1,7 +1,10 @@
 ---
 id: product-selection-qualification-meeting-lucas
 aliases: []
-tags: []
+tags:
+  - #planning
+  - #cycle/july
+parent: "[[product-selection-qualification-flow]]"
 ---
 # product-selection-qualification-meeting-lucas
 
@@ -28,3 +31,8 @@ tags: []
 ## Prioritisation
 - We can cut the heat+solar+battery flow
 - If we need to, we can cut the smushing of solar+heat pump in the admin portal
+
+---
+
+## Related
+- [[product-selection-qualification-claude-plan]]

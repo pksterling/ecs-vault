@@ -1,7 +1,11 @@
 ---
 id: product-selection-qualification-claude-plan
 aliases: []
-tags: []
+tags:
+  - #planning
+  - #cycle/july
+  - #nzhs
+parent: "[[product-selection-qualification-flow]]"
 ---
 # product-selection-qualification-claude-plan
 
@@ -106,3 +110,8 @@ end
 - If ALL Suppliers disqualified for a product → dead-end / waitlist / NZHS handoff?
   (Leighton's qualification branch, but a product decision either way.)
 - Confirm conservation/listed columns with Lucas (Leighton's Supplier config).
+
+---
+
+## Related
+- [[product-selection-qualification-meeting-leighton]]

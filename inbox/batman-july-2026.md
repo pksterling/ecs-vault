@@ -1,7 +1,8 @@
 ---
 id: batman-july-2026
 aliases: []
-tags: []
+tags:
+  - #batman
 ---
 # batman-july-2026
 
@@ -74,3 +75,8 @@ tags: []
   + Need to un-early-return it then I can mark it as delivered
   + Waiting for response from Fiona
   + Marked as delivered with Fiona's new script
+
+---
+
+## Related
+- [[redact-personal-employee-data-script]]

@@ -1,7 +1,8 @@
 ---
 id: stefan-weekly-2026-07-08
 aliases: []
-tags: []
+tags:
+  - #personal-development
 ---
 # stefan-weekly-2026-07-08
 
@@ -29,3 +30,8 @@ tags: []
   + Frontend import
   + Auto-strategy
   + Unblocking errors
+
+---
+
+## Related
+- [[reimburse-employee-onboarding]]

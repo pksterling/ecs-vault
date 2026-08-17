@@ -1,7 +1,9 @@
 ---
 id: carl-0-reimbursement
 aliases: []
-tags: []
+tags:
+  - #task
+  - #reimburse
 ---
 # carl-0-reimbursement
 
@@ -20,4 +22,7 @@ anomaly page - a charge scheme handler
 - Longfix
   + Prevent future trip dates being submitted
 
+---
 
+## Related
+- [[reimburse-prevent-future-trips]]

@@ -1,7 +1,9 @@
 ---
 id: reimburse-tracking-convo-blair-stefan
 aliases: []
-tags: []
+tags:
+  - #planning
+  - #cycle/june
 ---
 # reimburse-tracking-convo-blair-stefan
 
@@ -32,3 +34,9 @@ tags: []
     * employer: id, name, active schemes (ecs, tcs, reimburse, etc)
   + Events are then queryable from the events page
   + Further: send these events to the reporting DB in a human-readable format
+
+---
+
+## Related
+- [[page-view-events-reimburse]]
+- [[posthog-consent-gdpr-notes]]

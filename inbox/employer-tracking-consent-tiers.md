@@ -3,6 +3,8 @@ id: employer-tracking-consent-tiers
 aliases: []
 tags:
   - #cycle/june
+  - #gdpr
+parent: "[[employer-tracking-gdpr]]"
 ---
 # employer tracking - consent tiers (pm summary)
 
@@ -65,3 +67,9 @@ tags:
 - ship anon tier first - most product Qs, no banner, no friction
 - add consent-gated identity later only if specific need (retention / per-company / replay / support)
 - reimburse outreach = separate project, separate consent
+
+---
+
+## Related
+- [[posthog-consent-gdpr-notes]]
+- [[more-gdpr-notes]]

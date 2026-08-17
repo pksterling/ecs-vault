@@ -3,6 +3,8 @@ id: tcs-168-export-posthog-data-to-bigquery
 aliases: []
 tags:
   - #cycle/june
+  - #task
+parent: "[[track-employer-portal-usage]]"
 ---
 # Export Posthog data to BigQuery
 _[Linear issue](https://linear.app/electriccarscheme/issue/TCS-168/export-posthog-data-to-bigquery)_
@@ -21,3 +23,9 @@ More info on main ticket
 Medium-priority. Duplicate PostHog data into the data warehouse so it can be joined with existing ECS data (e.g. fleet size) in Metabase and queried by Claude — the kind of cross-source question PostHog alone can't answer.
 
 Stefan flagged PostHog supports native [BigQuery batch exports](https://posthog.com/docs/cdp/batch-exports/bigquery) on higher paid tiers, with the caveat that keeping the tables in sync may be an issue. Only worth doing if in-PostHog reporting ([[tcs-176-query-ph-data-on-ph]]) can't answer the warehouse-join questions.
+
+---
+
+## Related
+- [[tcs-176-query-ph-data-on-ph]]
+- [[tcs-167-posthog-identity-tracking]]

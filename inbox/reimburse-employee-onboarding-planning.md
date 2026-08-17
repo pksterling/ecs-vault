@@ -1,7 +1,9 @@
 ---
 id: reimburse-employee-onboarding-planning
 aliases: []
-tags: []
+tags:
+  - #planning
+parent: "[[reimburse-employee-onboarding]]"
 ---
 # Reimburse Employee Onboarding Planning
 _[Linear project](https://linear.app/electriccarscheme/project/reimburse-mvp-employee-onboarding-69121489367a/overview)_
@@ -133,3 +135,8 @@ can come in the same sprint; non-EV lookup is a follow-up.
 
 Employer default aer
 repplicate what's on charge scheme for the aer
+
+---
+
+## Related
+- [[draft-issue-bulk-reimburse-order-creation]]

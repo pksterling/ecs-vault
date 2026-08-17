@@ -3,6 +3,8 @@ id: tcs-169-track-downloads
 aliases: []
 tags:
   - #cycle/june
+  - #task
+parent: "[[track-employer-portal-usage]]"
 ---
 # Track downloads
 _[Linear issue](https://linear.app/electriccarscheme/issue/TCS-169/track-downloads)_
@@ -18,3 +20,8 @@ _[Linear issue](https://linear.app/electriccarscheme/issue/TCS-169/track-downloa
 Covers functional requirement #2 (download tracking) — logging each business-miles / odometer content download by file type, employer and timestamp.
 
 Primary path is the adjacent **CSV Downloads Level 2** project; the deliverable here is making sure Matt is trained on those events and they carry enough info for him to act. If Level 2 doesn't land in time, fall back to PostHog event captures for downloads. Exporting download events to the reporting DB is a stretch (~0.5 day).
+
+---
+
+## Related
+- [[tcs-167-posthog-identity-tracking]]

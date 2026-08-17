@@ -3,6 +3,7 @@ id: draft-issue-assign-employees-to-approvers
 aliases: []
 tags:
   - draft-issue
+parent: "[[approval-groups]]"
 ---
 # Draft Issue: Assign employees to approvers (Stretch goal)
 
@@ -28,3 +29,8 @@ As a reimburse approver user:
 * An employee can be assigned to multiple approvers
 * Delegation (reassigning temporarily for leave cover) is out of scope
 * Heirarchy (your boss' boss' boss can approve your claim) is out of scope
+
+---
+
+## Related
+- [[role-based-employer-access]]

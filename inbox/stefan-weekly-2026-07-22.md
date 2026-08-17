@@ -1,8 +1,15 @@
 ---
 id: stefan-weekly-2026-07-22
 aliases: []
-tags: []
+tags:
+  - #personal-development
 ---
 # stefan-weekly-2026-07-22
 - I'm stressed
 - Batman and planning week is horrible
+
+---
+
+## Related
+- [[batman-july-2026]]
+- [[planning-week-july-2026]]

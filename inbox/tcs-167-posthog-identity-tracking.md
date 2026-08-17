@@ -3,6 +3,8 @@ id: tcs-167-posthog-identity-tracking
 aliases: []
 tags:
   - #cycle/june
+  - #task
+parent: "[[track-employer-portal-usage]]"
 ---
 # PostHog Identity Tracking
 _[Linear issue](https://linear.app/electriccarscheme/issue/TCS-167/posthog-identity-tracking)_
@@ -36,3 +38,9 @@ also pass **email** (Matt can't resolve who a raw id belongs to) and the
 **employer id**. The employer id must update when the current employer changes.
 Once identity + pageviews are flowing, page-level tracking (employer, page,
 timestamp) comes essentially for free from PostHog autocapture.
+
+---
+
+## Related
+- [[employer-portal-tracking-options-comparison]]
+- [[posthog-consent-gdpr-notes]]

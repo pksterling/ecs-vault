@@ -1,7 +1,8 @@
 ---
 id: role-based-employer-access
 aliases: []
-tags: []
+tags:
+  - #planning
 ---
 # Role Based Employer Access
 _[Linear issue TCS-141](https://linear.app/electriccarscheme/issue/TCS-141/approvers) — Reimburse. - Employer Approvals project_
@@ -103,3 +104,10 @@ well-understood right now.
   in the Administrators list?
 - Is there a third role needed now (e.g. read-only auditor), or just full-access
   + reimburse-approver?
+
+---
+
+## Related
+- [[approval-groups]]
+- [[draft-issue-employer-admin-user-roles]]
+- [[draft-issue-reimburse-only-portal]]
