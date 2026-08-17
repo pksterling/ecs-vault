@@ -9,7 +9,7 @@ tags:
 _[Linear project](https://linear.app/electriccarscheme/project/product-selection-and-qualification-flow-39d153b31e42/overview)_
 
 ## Planning
-- [[product-selection-qualification-meeting-lucas]]
+- Product selection qualification meeting - Lucas
 - [[product-selection-qualification-meeting-leighton]]
 - [[product-selection-qualification-claude-plan]]
 - [[product-selection-qualification-planning-linear-draft]]

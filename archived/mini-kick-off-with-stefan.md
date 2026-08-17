@@ -28,7 +28,7 @@ tags:
     * Who can approve who
       - ensure they cannot see anything else
     * What data can they see?
-  + Both of these are heavily related to [[tcs-141-approvers|TCS-141 Approvers]]
+  + Both of these are heavily related to TCS-141 Approvers
 
 ---
 

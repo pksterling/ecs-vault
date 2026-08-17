@@ -7,7 +7,7 @@ tags:
 # Role Based Employer Access
 _[Linear issue TCS-141](https://linear.app/electriccarscheme/issue/TCS-141/approvers) — Reimburse. - Employer Approvals project_
 
-Related: [[tcs-141-approvers|TCS-141 Approvers]], [[approval-groups]]
+Related: TCS-141 Approvers, [[approval-groups]]
 
 Draft issues: [[draft-issue-employer-admin-user-roles]],
 [[draft-issue-reimburse-only-portal]]

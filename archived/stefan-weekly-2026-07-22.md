@@ -12,4 +12,4 @@ tags:
 
 ## Related
 - [[batman-july-2026]]
-- [[planning-week-july-2026]]
+- Planning week - July 2026

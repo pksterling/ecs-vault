@@ -12,6 +12,7 @@ parent: "[[product-selection-qualification-claude-plan]]"
 ### Add Questions
 - Split into stages
 - PR one stage at a time - service+frontend
+- [[nzhs-quote-your-details]]
 ### Conditionalise questions
 
 ## Questions

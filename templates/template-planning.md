@@ -1,10 +1,10 @@
 ---
-id: meta-planning
+id: template-planning
 aliases: []
 tags:
   - #planning
 ---
-# meta-planning
+# 
 ## What is the business need?
 
 ## What is the current state?
