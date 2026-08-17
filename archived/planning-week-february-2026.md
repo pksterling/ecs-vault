@@ -5,6 +5,7 @@ aliases:
 tags:
   - #planning
   - #cycle/march
+parent: "[[cycles]]"
 ---
 
 # Planning week: February 2026

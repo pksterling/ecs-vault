@@ -1,10 +1,11 @@
 ---
-id: tasks-june
+id: tasks-june-26
 aliases: []
 tags:
   - #planning
   - #cycle/june
 related: []
+parent: "[[cycles]]"
 ---
 
 # Tasks - June

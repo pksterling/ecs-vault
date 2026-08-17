@@ -2,7 +2,12 @@
 id: employer-tracking-gdpr
 aliases: []
 tags:
+  - #project
   - #gdpr
+parent: "[[projects]]"
+status: inactive
+related:
+  - "[[track-employer-portal-usage]]"
 ---
 # employer-tracking-gdpr
 _[Copied to Notion](https://app.notion.com/p/Data-Protection-GDPR-PECR-390b5f6a3cf080d4bae1d10e20c9474d?source=copy_link)_

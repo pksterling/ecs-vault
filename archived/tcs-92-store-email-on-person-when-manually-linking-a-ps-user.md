@@ -4,6 +4,8 @@ aliases:
   - 1771592771-CYUY
 tags:
   - #task
+related:
+  - "[[tcs-90-back-link-plugsurfing-user-to-employee]]"
 ---
 
 # TCS-92 - Store email on Person when manually linking a PS User

@@ -3,6 +3,7 @@ id: react
 aliases: []
 tags:
   - #index
+parent: "[[home]]"
 ---
 
 # React

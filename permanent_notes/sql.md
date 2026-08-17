@@ -3,6 +3,7 @@ id: sql
 aliases: []
 tags:
   - #index
+parent: "[[home]]"
 ---
 
 # SQL

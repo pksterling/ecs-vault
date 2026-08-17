@@ -1,9 +1,10 @@
 ---
-id: tasks-april
+id: tasks-april-26
 aliases: []
 tags:
   - #planning
   - #cycle/april
+parent: "[[cycles]]"
 ---
 
 # Tasks - April

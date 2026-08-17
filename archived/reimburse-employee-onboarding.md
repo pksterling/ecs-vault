@@ -2,7 +2,12 @@
 id: reimburse-employee-onboarding
 aliases: []
 tags:
-  - #task
+  - #project
+parent: "[[projects]]"
+status: inactive
+related:
+  - "[[create-reimburse-order-snippet]]"
+  - "[[reimburse-employer-approvals]]"
 ---
 # reimburse-employee-onboarding
 _[Linear issue](https://linear.app/electriccarscheme/issue/TCS-175/bulk-reimburse-order-creation)_
