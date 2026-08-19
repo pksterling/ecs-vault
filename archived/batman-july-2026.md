@@ -2,7 +2,8 @@
 id: batman-july-2026
 aliases: []
 tags:
-  - #batman
+  - #type/planning
+  - #domain/batman
 ---
 # batman-july-2026
 

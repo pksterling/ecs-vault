@@ -2,7 +2,8 @@
 id: product-selection-qualification-meeting-leighton
 aliases: []
 tags:
-  - #planning
+  - #type/meeting
+  - #domain/nzhs
   - #cycle/july
 parent: "[[product-selection-qualification-flow]]"
 ---

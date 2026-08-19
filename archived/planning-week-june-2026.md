@@ -2,7 +2,7 @@
 id: planning-week-june-2026
 aliases: []
 tags:
-  - #planning
+  - #type/planning
   - #cycle/june
 parent: "[[cycles]]"
 ---

@@ -4,7 +4,7 @@ aliases:
   - Cycles
   - Planning Archive
 tags:
-  - #index
+  - #type/index
 parent: "[[home]]"
 ---
 

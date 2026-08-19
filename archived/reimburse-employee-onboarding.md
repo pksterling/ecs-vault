@@ -2,7 +2,8 @@
 id: reimburse-employee-onboarding
 aliases: []
 tags:
-  - #project
+  - #type/project
+  - #domain/reimburse
 parent: "[[projects]]"
 status: inactive
 related:

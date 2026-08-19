@@ -2,8 +2,9 @@
 id: posthog-consent-gdpr-notes
 aliases: []
 tags:
+  - #type/reference
+  - #domain/reimburse
   - #cycle/june
-  - #gdpr
 parent: "[[employer-tracking-gdpr]]"
 ---
 # posthog consent / cookies / gdpr

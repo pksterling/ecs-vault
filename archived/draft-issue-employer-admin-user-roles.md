@@ -2,6 +2,8 @@
 id: draft-issue-employer-admin-user-roles
 aliases: []
 tags:
+  - #type/draft-issue
+  - #domain/reimburse
   - draft-issue
 parent: "[[role-based-employer-access]]"
 ---

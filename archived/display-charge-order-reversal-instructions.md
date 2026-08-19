@@ -2,9 +2,10 @@
 id: display-charge-order-reversal-instructions
 aliases: []
 tags:
-  - #task
-  - #rails
-  - #react
+  - #type/task
+  - #domain/charge-scheme
+  - #tech/rails
+  - #tech/react
 ---
 
 # Display charge order reversal instructions

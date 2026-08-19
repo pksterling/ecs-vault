@@ -3,8 +3,10 @@ id: fix-autosubmission-dividebyzero-bug
 aliases:
   - Fix autosubmission dividebyzero bug
 tags:
-  - #task
+  - #type/task
+  - #domain/charge-scheme
   - #cycle/march
+parent: "[[reacting-to-early-odometer-requests]]"
 ---
 
 # Fix autosubmission dividebyzero bug

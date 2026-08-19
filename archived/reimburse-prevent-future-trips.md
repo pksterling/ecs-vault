@@ -2,8 +2,8 @@
 id: reimburse-prevent-future-trips
 aliases: []
 tags:
-  - #task
-  - #reimburse
+  - #type/task
+  - #domain/reimburse
 ---
 # reimburse-prevent-future-trips
 _[Linear ticket](https://linear.app/electriccarscheme/issue/TCS-182/un-submitted-future-trips-logic-in-claims)_

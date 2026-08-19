@@ -2,7 +2,8 @@
 id: lessons-from-ecs-autosubmission-job-bug
 aliases: []
 tags:
-  - #wisdom
+  - #type/wisdom
+  - #domain/charge-scheme
 ---
 
 # Lessons from ECS autosbmission job bug

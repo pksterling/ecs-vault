@@ -1,7 +1,9 @@
 ---
 id: nzhs-quote-your-details
 aliases: []
-tags: []
+tags:
+  - #type/task
+  - #domain/nzhs
 ---
 # nzhs-quote-your-details
 

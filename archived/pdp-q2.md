@@ -2,7 +2,8 @@
 id: pdp-q2
 aliases: []
 tags:
-  - #personal-development
+  - #type/planning
+  - #domain/personal-development
 ---
 
 # PDP Q2

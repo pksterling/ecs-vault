@@ -2,7 +2,8 @@
 id: stefan-weekly-2026-04-01
 aliases: []
 tags:
-  - #personal-development
+  - #type/meeting
+  - #domain/personal-development
 ---
 # Stefan - weekly - 2026-04-01
 

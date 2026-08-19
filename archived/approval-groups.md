@@ -3,7 +3,8 @@ id: approval-groups
 aliases:
   - Approval Groups
 tags:
-  - #project
+  - #type/project
+  - #domain/reimburse
   - #cycle/april
 parent: "[[reimburse-employer-approvals]]"
 status: inactive

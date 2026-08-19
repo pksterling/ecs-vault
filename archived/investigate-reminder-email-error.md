@@ -2,7 +2,8 @@
 id: investigate-reminder-email-error
 aliases: []
 tags:
-  - #debugging
+  - #type/debugging
+  - #domain/charge-scheme
 ---
 # Investigate reminder email error
 

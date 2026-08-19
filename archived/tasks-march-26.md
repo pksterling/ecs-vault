@@ -2,7 +2,7 @@
 id: tasks-march-26
 aliases: []
 tags:
-  - #planning
+  - #type/planning
   - #cycle/march
 parent: "[[cycles]]"
 ---

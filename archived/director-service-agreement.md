@@ -2,7 +2,8 @@
 id: director-service-agreement
 aliases: []
 tags:
-  - #batman
+  - #type/debugging
+  - #domain/batman
 ---
 # Director service agreement
 - Looks like the document was signed and amended at the same time or something

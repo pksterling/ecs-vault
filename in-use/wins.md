@@ -2,7 +2,7 @@
 id: wins
 aliases: []
 tags:
-  - #wins
+  - #type/reference
 ---
 
 # Wins

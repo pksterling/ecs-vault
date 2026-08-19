@@ -2,8 +2,9 @@
 id: tcs-179-query-ph-data-from-claude-via-mcp-to-ph
 aliases: []
 tags:
+  - #type/task
+  - #domain/reimburse
   - #cycle/june
-  - #task
 parent: "[[track-employer-portal-usage]]"
 ---
 # Query PH data from claude (via MCP to PH)

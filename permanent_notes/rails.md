@@ -2,7 +2,7 @@
 id: rails
 aliases: []
 tags:
-  - #index
+  - #type/index
 parent: "[[home]]"
 ---
 

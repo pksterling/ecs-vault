@@ -2,8 +2,8 @@
 id: quote-retrieval
 aliases: []
 tags:
-  - #project
-  - #planning
+  - #type/project
+  - #domain/nzhs
   - #cycle/july
 parent: "[[projects]]"
 status: active

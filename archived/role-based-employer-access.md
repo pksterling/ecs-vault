@@ -2,8 +2,8 @@
 id: role-based-employer-access
 aliases: []
 tags:
-  - #project
-  - #planning
+  - #type/project
+  - #domain/reimburse
 parent: "[[reimburse-employer-approvals]]"
 status: inactive
 ---

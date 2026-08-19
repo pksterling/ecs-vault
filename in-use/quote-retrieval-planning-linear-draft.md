@@ -2,9 +2,9 @@
 id: quote-retrieval-planning-linear-draft
 aliases: []
 tags:
-  - #planning
+  - #type/draft-issue
+  - #domain/nzhs
   - #cycle/july
-  - #draft-issue
 parent: "[[quote-retrieval]]"
 ---
 # Employee Portal Quote Retrieval — Linear issue draft

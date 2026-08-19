@@ -2,7 +2,7 @@
 id: wisdom
 aliases: []
 tags:
-  - #index
+  - #type/index
 parent: "[[home]]"
 ---
 

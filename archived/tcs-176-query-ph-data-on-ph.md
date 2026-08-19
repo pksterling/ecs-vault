@@ -2,8 +2,9 @@
 id: tcs-176-query-ph-data-on-ph
 aliases: []
 tags:
+  - #type/task
+  - #domain/reimburse
   - #cycle/june
-  - #task
 parent: "[[track-employer-portal-usage]]"
 ---
 # Query PH data (on PH)

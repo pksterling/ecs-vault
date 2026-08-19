@@ -2,7 +2,8 @@
 id: more-gdpr-notes
 aliases: []
 tags:
-  - #gdpr
+  - #type/reference
+  - #domain/reimburse
 parent: "[[employer-tracking-gdpr]]"
 ---
 # more-gdpr-notes

@@ -2,8 +2,8 @@
 id: employer-tracking-gdpr
 aliases: []
 tags:
-  - #project
-  - #gdpr
+  - #type/project
+  - #domain/reimburse
 parent: "[[projects]]"
 status: inactive
 related:

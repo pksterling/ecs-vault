@@ -2,8 +2,8 @@
 id: carl-0-reimbursement
 aliases: []
 tags:
-  - #task
-  - #reimburse
+  - #type/task
+  - #domain/reimburse
 ---
 # carl-0-reimbursement
 

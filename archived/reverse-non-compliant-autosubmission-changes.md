@@ -2,8 +2,10 @@
 id: reverse-non-compliant-autosubmission-changes
 aliases: []
 tags:
+  - #type/task
+  - #domain/charge-scheme
   - #cycle/march
-  - #task
+parent: "[[reacting-to-early-odometer-requests]]"
 ---
 # Reverse non-compliant autosubmission changes
 

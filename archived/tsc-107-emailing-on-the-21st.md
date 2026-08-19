@@ -4,8 +4,10 @@ aliases:
   - TSC-107 - Emailing on the 21st
   - TSC-108 - Emailing on the 27th
 tags:
+  - #type/task
+  - #domain/charge-scheme
   - #cycle/march
-  - #task
+parent: "[[reacting-to-early-odometer-requests]]"
 ---
 
 # TSC-107 - Emailing on the 21st

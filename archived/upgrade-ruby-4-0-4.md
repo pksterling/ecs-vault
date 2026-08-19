@@ -2,7 +2,7 @@
 id: upgrade-ruby-4-0-4
 aliases: []
 tags:
-  - #task
+  - #type/task
   - #cycle/april
 ---
 # upgrade-ruby-4-0-4

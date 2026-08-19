@@ -1,7 +1,9 @@
 ---
 id: employer-portal-tracking-options-comparison
 aliases: []
-tags: []
+tags:
+  - #type/reference
+  - #domain/reimburse
 ---
 # Employer Portal Tracking: PostHog vs Hotjar vs Admin Events
 

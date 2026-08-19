@@ -2,7 +2,8 @@
 id: reimburse-tracking-convo-blair-stefan
 aliases: []
 tags:
-  - #planning
+  - #type/meeting
+  - #domain/reimburse
   - #cycle/june
 ---
 # reimburse-tracking-convo-blair-stefan

@@ -2,8 +2,8 @@
 id: services-handlers-events
 aliases: []
 tags:
-  - #reference
-  - #rails
+  - #type/reference
+  - #tech/rails
 ---
 # services-handlers-events
 

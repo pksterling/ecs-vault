@@ -3,7 +3,8 @@ id: tcs-92-store-email-on-person-when-manually-linking-a-ps-user
 aliases:
   - 1771592771-CYUY
 tags:
-  - #task
+  - #type/task
+  - #domain/charge-scheme
 related:
   - "[[tcs-90-back-link-plugsurfing-user-to-employee]]"
 ---

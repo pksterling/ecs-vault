@@ -2,7 +2,8 @@
 id: reimburse-employer-approvals-realistic-lean-scenario
 aliases: []
 tags:
-  - #planning
+  - #type/planning
+  - #domain/reimburse
   - #cycle/april
 parent: "[[reimburse-employer-approvals]]"
 ---

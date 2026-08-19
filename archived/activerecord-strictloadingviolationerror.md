@@ -2,7 +2,8 @@
 id: activerecord-strictloadingviolationerror
 aliases: []
 tags:
-  - #batman
+  - #type/debugging
+  - #domain/batman
 ---
 # activerecord-strictloadingviolationerror
 

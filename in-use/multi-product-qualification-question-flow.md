@@ -2,8 +2,8 @@
 id: multi-product-qualification-question-flow
 aliases: []
 tags:
-  - #task
-  - #nzhs
+  - #type/task
+  - #domain/nzhs
 parent: "[[product-selection-qualification-claude-plan]]"
 ---
 # multi-product-qualification-question-flow

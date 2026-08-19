@@ -2,7 +2,7 @@
 id: demo-fri-13th-march
 aliases: []
 tags:
-  - #demo
+  - #type/meeting
   - #cycle/march
 ---
 

@@ -2,7 +2,7 @@
 id: projects
 aliases: []
 tags:
-  - #index
+  - #type/index
 parent: "[[home]]"
 ---
 
@@ -17,3 +17,4 @@ parent: "[[home]]"
 - [[reimburse-employee-onboarding]] — bulk reimburse order creation & CSV onboarding
 - [[reimburse-employer-approvals]] — employer approvals, role-based access, approval groups
 - [[employer-tracking-gdpr]] — GDPR / PECR consent for tracking
+- [[reacting-to-early-odometer-requests]] — odo reminder emails, autosubmission & fixes

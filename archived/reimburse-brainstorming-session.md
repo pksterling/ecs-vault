@@ -2,7 +2,8 @@
 id: reimburse-brainstorming-session
 aliases: []
 tags:
-  - #planning
+  - #type/meeting
+  - #domain/reimburse
   - #cycle/april
 ---
 # Reimburse Brainstorming Session

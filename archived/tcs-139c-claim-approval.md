@@ -2,7 +2,8 @@
 id: tcs-139c-claim-approval
 aliases: []
 tags:
-  - #task
+  - #type/task
+  - #domain/reimburse
   - #cycle/april
 parent: "[[tcs-139-employer-approvals]]"
 ---

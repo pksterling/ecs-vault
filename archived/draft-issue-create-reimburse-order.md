@@ -2,6 +2,8 @@
 id: draft-issue-create-reimburse-order
 aliases: []
 tags:
+  - #type/draft-issue
+  - #domain/reimburse
   - draft-issue
 parent: "[[reimburse-employee-onboarding]]"
 ---

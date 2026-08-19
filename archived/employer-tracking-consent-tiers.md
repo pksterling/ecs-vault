@@ -2,8 +2,9 @@
 id: employer-tracking-consent-tiers
 aliases: []
 tags:
+  - #type/reference
+  - #domain/reimburse
   - #cycle/june
-  - #gdpr
 parent: "[[employer-tracking-gdpr]]"
 ---
 # employer tracking - consent tiers (pm summary)

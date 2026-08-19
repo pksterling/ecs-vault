@@ -2,7 +2,7 @@
 id: personal-development
 aliases: []
 tags:
-  - #index
+  - #type/index
 parent: "[[home]]"
 ---
 
@@ -14,7 +14,7 @@ parent: "[[home]]"
 ## PDP
 - [[pdp-q2]] — Q2 2026
 
-## 1-on-1s
+## 1-to-1s
 - [[stefan-weekly-2026-07-22]] — Jul 2026
 - [[stefan-weekly-2026-07-15]] — Jul 2026
 - [[stefan-weekly-2026-07-08]] — Jul 2026

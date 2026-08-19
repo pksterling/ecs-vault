@@ -2,8 +2,8 @@
 id: big-query-queries-and-notebooks
 aliases: []
 tags:
-  - #reference
-  - #sql
+  - #type/reference
+  - #tech/sql
 ---
 # big-query-queries-and-notebooks
 ## Convo w/ #person/alex-fakhri

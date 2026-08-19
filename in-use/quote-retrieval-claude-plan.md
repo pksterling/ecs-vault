@@ -2,9 +2,9 @@
 id: quote-retrieval-claude-plan
 aliases: []
 tags:
-  - #planning
+  - #type/planning
+  - #domain/nzhs
   - #cycle/july
-  - #nzhs
 parent: "[[quote-retrieval]]"
 ---
 # quote-retrieval-claude-plan

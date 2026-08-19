@@ -2,9 +2,9 @@
 id: product-selection-qualification-planning-linear-draft
 aliases: []
 tags:
-  - #planning
+  - #type/draft-issue
+  - #domain/nzhs
   - #cycle/july
-  - #draft-issue
 parent: "[[product-selection-qualification-flow]]"
 ---
 # Product Selection & Qualification Flow — Linear issue draft

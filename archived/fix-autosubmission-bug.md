@@ -2,9 +2,10 @@
 id: fix-autosubmission-bug
 aliases: []
 tags:
-  - #debugging
-  - #task
+  - #type/debugging
+  - #domain/charge-scheme
   - #cycle/march
+parent: "[[reacting-to-early-odometer-requests]]"
 ---
 
 # Fix autosubmission bug

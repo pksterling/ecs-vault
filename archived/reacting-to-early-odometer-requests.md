@@ -3,12 +3,30 @@ id: reacting-to-early-odometer-requests
 aliases:
   - Reacting to early odometer requests
 tags:
+  - #type/project
+  - #domain/charge-scheme
   - #cycle/march
-  - #task
+parent: "[[projects]]"
+status: inactive
+related:
+  - "[[lessons-from-ecs-autosubmission-job-bug]]"
+  - "[[amend-incorrect-initial-odo-reading-snippet]]"
 ---
 
 # Reacting to early odometer requests
 [Link to linear project](https://linear.app/electriccarscheme/project/reacting-to-early-odometer-requests-6cee08374f1f/overview)
+
+Fix late manual odometer submissions being treated as early ones (tiny deltas -> min charges).
+
+## Build
+- [[tsc-107-emailing-on-the-21st|TCS-107/108 — reminder emails on the 21st & 27th]]
+- [[tcs-109-autosubmit-for-early-odo-submitters|TCS-109 — autosubmit for early odo submitters]]
+- [[missin-initial-reading-slack-bot|Missing initial reading slack bot]]
+
+## Fallout / fixes
+- [[fix-autosubmission-bug]]
+- [[fix-autosubmission-dividebyzero-bug]]
+- [[reverse-non-compliant-autosubmission-changes]]
 
 ## Figure out what's going on
 

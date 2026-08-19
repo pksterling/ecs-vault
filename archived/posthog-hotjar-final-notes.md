@@ -1,7 +1,9 @@
 ---
 id: posthog-hotjar-final-notes
 aliases: []
-tags: []
+tags:
+  - #type/reference
+  - #domain/reimburse
 ---
 # posthog-hotjar-final-notes
 No one, wants hotjar - everyone wants posthog - the only reason I can see to go

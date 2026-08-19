@@ -2,6 +2,8 @@
 id: draft-issue-assign-employees-to-approvers
 aliases: []
 tags:
+  - #type/draft-issue
+  - #domain/reimburse
   - draft-issue
 parent: "[[approval-groups]]"
 ---

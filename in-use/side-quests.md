@@ -1,7 +1,8 @@
 ---
 id: side-quests
 aliases: []
-tags: []
+tags:
+  - #type/planning
 ---
 
 # Side Quests

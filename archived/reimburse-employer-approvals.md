@@ -3,7 +3,8 @@ id: reimburse-employer-approvals
 aliases:
   - Reimburse Employer Approvals
 tags:
-  - #project
+  - #type/project
+  - #domain/reimburse
   - #cycle/april
 parent: "[[projects]]"
 status: inactive

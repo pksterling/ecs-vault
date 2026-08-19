@@ -2,8 +2,8 @@
 id: ecs-rails-to-react-type-flow
 aliases: []
 tags:
-  - #tip
-  - #react
+  - #type/reference
+  - #tech/react
 ---
 # ECS Rails to React type flow
 

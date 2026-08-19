@@ -2,8 +2,9 @@
 id: tcs-177-use-level-2-downloads
 aliases: []
 tags:
+  - #type/task
+  - #domain/reimburse
   - #cycle/june
-  - #task
 parent: "[[track-employer-portal-usage]]"
 ---
 # Use Level 2 Downloads

@@ -2,8 +2,9 @@
 id: tcs-139a-claims-index
 aliases: []
 tags:
+  - #type/task
+  - #domain/reimburse
   - #cycle/april
-  - #task
 parent: "[[tcs-139-employer-approvals]]"
 ---
 # tcs-139a-claims-index

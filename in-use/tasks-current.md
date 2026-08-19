@@ -2,7 +2,7 @@
 id: tasks-current
 aliases: []
 tags:
-  - #planning
+  - #type/planning
   - #cycle/july
 parent: "[[cycles]]"
 ---
@@ -14,16 +14,20 @@ parent: "[[cycles]]"
 ### Projects
 - [*] [[track-employer-portal-usage]]
 - [/] [[product-selection-qualification-flow]]
-- [/] [[quote-retrieval]]
 
 ### Tasks
-- [/] [[reimburse-prevent-future-trips]]
+- [/] [[nzhs-quote-homeowner-status]]
 
 ## Next
 
+### Projects
+- [/] [[quote-retrieval]]
+
 ## Next demo
+- [x] [[nzhs-quote-your-details]]
 
 ## Completed
+- [x] [[reimburse-prevent-future-trips]]
 
 ---
 

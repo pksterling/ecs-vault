@@ -2,7 +2,8 @@
 id: page-view-events-reimburse
 aliases: []
 tags:
-  - #draft-issue
+  - #type/draft-issue
+  - #domain/reimburse
 parent: "[[track-employer-portal-usage]]"
 ---
 # page-view-events-reimburse

@@ -3,9 +3,9 @@ id: arel-snippet
 aliases:
   - Arel snippet
 tags:
-  - #snippet
-  - #rails
-  - #sql
+  - #type/snippet
+  - #tech/rails
+  - #tech/sql
 ---
 
 # Arel snippet

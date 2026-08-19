@@ -2,10 +2,9 @@
 id: create-queuesjob-matcher
 aliases: []
 tags:
+  - #type/task
+  - #tech/rails
   - #cycle/march
-  - #task
-  - #rails
-  - #rspec
 ---
 
 # Create `queues_job` matcher

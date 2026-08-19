@@ -2,8 +2,9 @@
 id: tcs-169-track-downloads
 aliases: []
 tags:
+  - #type/task
+  - #domain/reimburse
   - #cycle/june
-  - #task
 parent: "[[track-employer-portal-usage]]"
 ---
 # Track downloads

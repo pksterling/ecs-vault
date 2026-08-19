@@ -2,8 +2,9 @@
 id: amend-incorrect-initial-odo-reading-snippet
 aliases: []
 tags:
-  - #snippet
-  - #rails
+  - #type/snippet
+  - #domain/charge-scheme
+  - #tech/rails
 ---
 # Amend incorrect initial odo reading snippet
 _[Link to zendesk ticket](https://electriccarschemehelp.zendesk.com/agent/tickets/73442?brand_id=5287733721373)_

@@ -3,7 +3,7 @@ id: home
 aliases:
   - Home
 tags:
-  - #index
+  - #type/index
 ---
 
 # 🏠 Home

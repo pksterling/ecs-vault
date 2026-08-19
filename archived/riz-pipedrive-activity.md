@@ -2,7 +2,8 @@
 id: riz-pipedrive-activity
 aliases: []
 tags:
-  - #task
+  - #type/task
+  - #domain/charge-scheme
 ---
 # Riz pipedrive activity
 _[Zendesk](https://electriccarschemehelp.zendesk.com/agent/tickets/71552)_

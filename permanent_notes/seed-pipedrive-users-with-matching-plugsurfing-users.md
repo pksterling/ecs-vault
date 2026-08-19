@@ -2,7 +2,8 @@
 id: seed-pipedrive-users-with-matching-plugsurfing-users
 aliases: []
 tags:
-  - #snippet
+  - #type/snippet
+  - #domain/charge-scheme
 ---
 
 # Seed pipedrive users with matching plugsurfing users

@@ -2,7 +2,8 @@
 id: invalid-mobile-phone-number
 aliases: []
 tags:
-  - #batman
+  - #type/debugging
+  - #domain/batman
 ---
 # Invalid mobile phone number
 - Tried adding the phone number to my person on admin

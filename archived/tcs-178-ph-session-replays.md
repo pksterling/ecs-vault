@@ -2,8 +2,9 @@
 id: tcs-178-ph-session-replays
 aliases: []
 tags:
+  - #type/task
+  - #domain/reimburse
   - #cycle/june
-  - #task
 parent: "[[track-employer-portal-usage]]"
 ---
 # PH Session Replays

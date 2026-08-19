@@ -2,8 +2,9 @@
 id: recalculate-mileage-claim-totals-when-employee-updates-a-trip
 aliases: []
 tags:
-  - #task
-  - #rails
+  - #type/task
+  - #domain/reimburse
+  - #tech/rails
 ---
 # Recalculate mileage claim totals when employee updates a trip
 

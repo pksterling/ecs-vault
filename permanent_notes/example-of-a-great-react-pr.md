@@ -2,8 +2,8 @@
 id: example-of-a-great-react-pr
 aliases: []
 tags:
-  - #reference
-  - #react
+  - #type/reference
+  - #tech/react
 ---
 # Example of a great React PR
 

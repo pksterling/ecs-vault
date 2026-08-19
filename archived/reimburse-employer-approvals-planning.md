@@ -2,7 +2,8 @@
 id: reimburse-employer-approvals-planning
 aliases: []
 tags:
-  - #planning
+  - #type/planning
+  - #domain/reimburse
   - #cycle/april
 parent: "[[reimburse-employer-approvals]]"
 ---

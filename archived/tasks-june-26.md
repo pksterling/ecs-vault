@@ -2,7 +2,7 @@
 id: tasks-june-26
 aliases: []
 tags:
-  - #planning
+  - #type/planning
   - #cycle/june
 related: []
 parent: "[[cycles]]"

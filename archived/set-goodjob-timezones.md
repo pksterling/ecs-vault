@@ -2,7 +2,7 @@
 id: set-goodjob-timezones
 aliases: []
 tags:
-  - #task
+  - #type/task
   - #cycle/april
 ---
 # Set goodjob timezones

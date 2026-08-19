@@ -2,7 +2,8 @@
 id: mini-kick-off-with-stefan
 aliases: []
 tags:
-  - #planning
+  - #type/meeting
+  - #domain/reimburse
   - #cycle/june
 ---
 # mini-kick-off-with-stefan ## #person/stefan summary

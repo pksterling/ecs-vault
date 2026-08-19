@@ -2,7 +2,8 @@
 id: track-employer-portal-usage
 aliases: []
 tags:
-  - #project
+  - #type/project
+  - #domain/reimburse
   - #cycle/june
 parent: "[[projects]]"
 status: active

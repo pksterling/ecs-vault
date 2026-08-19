@@ -1,7 +1,9 @@
 ---
 id: heat-pump-solar-intro
 aliases: []
-tags: []
+tags:
+  - #type/meeting
+  - #domain/nzhs
 ---
 # heat-pump-solar-intro
 - Energy rise to continue

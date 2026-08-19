@@ -1,7 +1,9 @@
 ---
 id: tcs-139f-claim-filtering
 aliases: []
-tags: []
+tags:
+  - #type/task
+  - #domain/reimburse
 parent: "[[tcs-139-employer-approvals]]"
 ---
 # tcs-139f-claim-filtering

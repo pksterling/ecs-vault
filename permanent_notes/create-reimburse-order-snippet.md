@@ -2,8 +2,9 @@
 id: create-reimburse-order-snippet
 aliases: []
 tags:
-  - #snippet
-  - #rails
+  - #type/snippet
+  - #domain/reimburse
+  - #tech/rails
 ---
 # create-reimburse-order-snippet
 

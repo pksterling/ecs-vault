@@ -2,7 +2,7 @@
 id: remove-gem-directories-in-dockerfile-snippet
 aliases: []
 tags:
-  - #snippet
+  - #type/snippet
 ---
 # remove-gem-directories-in-dockerfile-snippet
 

@@ -2,9 +2,9 @@
 id: product-selection-qualification-claude-plan
 aliases: []
 tags:
-  - #planning
+  - #type/planning
+  - #domain/nzhs
   - #cycle/july
-  - #nzhs
 parent: "[[product-selection-qualification-flow]]"
 ---
 # product-selection-qualification-claude-plan

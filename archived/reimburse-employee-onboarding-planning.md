@@ -2,7 +2,8 @@
 id: reimburse-employee-onboarding-planning
 aliases: []
 tags:
-  - #planning
+  - #type/planning
+  - #domain/reimburse
 parent: "[[reimburse-employee-onboarding]]"
 ---
 # Reimburse Employee Onboarding Planning

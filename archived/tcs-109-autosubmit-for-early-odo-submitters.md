@@ -3,9 +3,11 @@ id: tcs-109-autosubmit-for-early-odo-submitters
 aliases:
   - TCS-109 - Autosubmit for early odo submitters
 tags:
+  - #type/task
+  - #domain/charge-scheme
+  - #tech/rails
   - #cycle/march
-  - #rails
-  - #task
+parent: "[[reacting-to-early-odometer-requests]]"
 ---
 
 # TCS-109 - Autosubmit for early odo submitters

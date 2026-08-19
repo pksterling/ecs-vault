@@ -2,7 +2,8 @@
 id: resignation-protection-debug
 aliases: []
 tags:
-  - #batman
+  - #type/debugging
+  - #domain/batman
 ---
 # resignation-protection-debug
 - No resignation protection is needed for extensions

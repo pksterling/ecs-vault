@@ -2,6 +2,8 @@
 id: discussing-posthog-vs-hotjar
 aliases: []
 tags:
+  - #type/meeting
+  - #domain/reimburse
   - #cycle/june
 ---
 # discussing-posthog-vs-hotjar

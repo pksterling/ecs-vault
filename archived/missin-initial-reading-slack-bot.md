@@ -2,8 +2,10 @@
 id: missin-initial-reading-slack-bot
 aliases: []
 tags:
-  - #task
+  - #type/task
+  - #domain/charge-scheme
   - #cycle/march
+parent: "[[reacting-to-early-odometer-requests]]"
 ---
 # Missing initial reading slack bot
 

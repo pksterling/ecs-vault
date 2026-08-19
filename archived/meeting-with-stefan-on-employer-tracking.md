@@ -2,7 +2,8 @@
 id: meeting-with-stefan-on-employer-tracking
 aliases: []
 tags:
-  - #planning
+  - #type/meeting
+  - #domain/reimburse
   - #cycle/june
 ---
 # meeting-with-stefan-on-employer-tracking

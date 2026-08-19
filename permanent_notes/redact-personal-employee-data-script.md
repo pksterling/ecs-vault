@@ -2,8 +2,8 @@
 id: redact-personal-employee-data-script
 aliases: []
 tags:
-  - #snippet
-  - #rails
+  - #type/snippet
+  - #tech/rails
 ---
 # redact-personal-employee-data-script
 ```ruby

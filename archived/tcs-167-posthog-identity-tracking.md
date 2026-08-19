@@ -2,8 +2,9 @@
 id: tcs-167-posthog-identity-tracking
 aliases: []
 tags:
+  - #type/task
+  - #domain/reimburse
   - #cycle/june
-  - #task
 parent: "[[track-employer-portal-usage]]"
 ---
 # PostHog Identity Tracking
