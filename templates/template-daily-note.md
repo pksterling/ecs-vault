@@ -2,7 +2,7 @@
 id: {{date:YYYY-MM-DD}}
 aliases: []
 tags:
-  - #daily-notes
+  - #type/daily
 ---
 
 # {{date:dddd Do MMM [']YY}}

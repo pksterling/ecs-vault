@@ -1,10 +1,10 @@
 ---
-id: template-planning
+id: {{title}}
 aliases: []
 tags:
-  - #planning
+  - #type/planning
 ---
-# 
+# {{title}}
 ## What is the business need?
 
 ## What is the current state?
