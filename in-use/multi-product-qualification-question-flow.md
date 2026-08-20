@@ -8,11 +8,15 @@ parent: "[[product-selection-qualification-claude-plan]]"
 ---
 # multi-product-qualification-question-flow
 
+## Tasks
+- [[nzhs-quote-your-details]]
+- [[nzhs-quote-homeowner-status]]
+- [[nzhs-quote-step-service]]
+
 ## Stages
 ### Add Questions
 - Split into stages
 - PR one stage at a time - service+frontend
-- [[nzhs-quote-your-details]]
 ### Conditionalise questions
 
 ## Questions

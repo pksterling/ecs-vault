@@ -11,7 +11,9 @@
       "mcp__linear__list_projects",
       "Bash(xargs -I{} sh -c 'echo \"=== {} ===\" && cat \"{}\"')",
       "Bash(grep *)",
-      "mcp__linear__save_issue"
+      "mcp__linear__save_issue",
+      "Bash(python3 *)",
+      "Bash(git mv *)"
     ]
   }
 }

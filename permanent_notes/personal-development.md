@@ -12,6 +12,7 @@ parent: "[[home]]"
 - [[wins]] — running log of wins and successes
 
 ## PDP
+- [[post-probation-performance-meeting]]
 - [[pdp-q2]] — Q2 2026
 
 ## 1-to-1s

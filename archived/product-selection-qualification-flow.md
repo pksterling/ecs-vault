@@ -17,6 +17,7 @@ _[Link to questions CSV](https://docs.google.com/spreadsheets/d/1mq1-Tkdlbg-w2SR
 ## Tasks
 - [[nzhs-quote-your-details]]
 - [[nzhs-quote-homeowner-status]]
+- [[nzhs-quote-step-service]]
 
 ## Planning
 - Product selection qualification meeting - Lucas

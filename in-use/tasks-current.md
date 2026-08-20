@@ -17,6 +17,7 @@ parent: "[[cycles]]"
 
 ### Tasks
 - [/] [[nzhs-quote-homeowner-status]]
+- [/] [[nzhs-quote-step-service]]
 
 ## Next
 
