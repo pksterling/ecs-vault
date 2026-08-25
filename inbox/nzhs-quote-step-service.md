@@ -20,3 +20,15 @@ STEP_SOLUTIONS = {
   battery_only: %i[ your_details property energy quote] 
 }.freeze
 ```
+
+## New approach
+Use enummer to store completed steps
+
+## Stefan's review
+- #person/stefan pushed back on having so much logic in the frontend
+- Suggested creating a struct to handle the step business
+- Also wants a `QuoteRequest` module
+
+- Guarded against drifting of ordered steps and enummer steps pushed
+- Now need to create a quote request step view model, then set it up to send completed?
+  current? slug and label

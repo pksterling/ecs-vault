@@ -12,6 +12,8 @@ parent: "[[product-selection-qualification-claude-plan]]"
 - [[nzhs-quote-your-details]]
 - [[nzhs-quote-homeowner-status]]
 - [[nzhs-quote-step-service]]
+- [[nzhs-quote-roof]]
+- [[nzhs-quote-energy]]
 
 ## Stages
 ### Add Questions

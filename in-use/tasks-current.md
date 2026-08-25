@@ -25,6 +25,7 @@ parent: "[[cycles]]"
 - [/] [[quote-retrieval]]
 
 ## Next demo
+- [x] [[nzhs-quote-request-module-nesting]]
 - [x] [[nzhs-quote-your-details]]
 
 ## Completed
