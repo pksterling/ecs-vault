@@ -2,37 +2,31 @@
 id: tasks-current
 aliases: []
 tags:
-  - #type/planning
-  - #cycle/july
+  - "#type/planning"
+  - "#cycle/september"
 parent: "[[cycles]]"
 ---
 
-# Tasks - July
+# Tasks - September
 
 ## Current
-
 ### Projects
 - [*] [[track-employer-portal-usage]]
-- [/] [[product-selection-qualification-flow]]
-
+- [/] [[nzhs-quote-flow-lead]]
 ### Tasks
-- [/] [[nzhs-quote-homeowner-status]]
-- [/] [[nzhs-quote-step-service]]
+- [?] Block flat roof for solar and heat pump
 
 ## Next
-
 ### Projects
 - [/] [[quote-retrieval]]
 
 ## Next demo
-- [x] [[nzhs-quote-request-module-nesting]]
-- [x] [[nzhs-quote-your-details]]
 
 ## Completed
-- [x] [[reimburse-prevent-future-trips]]
+### Projects
+### Tasks
 
 ---
 
 ## Related
-- [[batman-july-2026]]
-- Planning week - July 2026
+- [[planning-week-september-2026]]

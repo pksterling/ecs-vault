@@ -2,19 +2,22 @@
 id: cycles
 aliases:
   - Cycles
-  - Planning Archive
+  - "Planning Archive"
 tags:
-  - #type/index
+  - "#type/index"
 parent: "[[home]]"
 ---
 
 # Cycles
 
 ## Current cycle
-  + [[tasks-current]]
-  + [[batman-july-2026]]
+- September 2026
+  + [[planning-week-september-2026]]
 
 ## Previous cycles
+- July 2026
+  + [[tasks-july-26]]
+  + [[batman-july-2026]]
 - June 2026
   + [[tasks-june-26]]
   + [[planning-week-june-2026]]

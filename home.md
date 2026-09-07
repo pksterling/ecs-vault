@@ -3,14 +3,14 @@ id: home
 aliases:
   - Home
 tags:
-  - #type/index
+  - "#type/index"
 ---
 
 # 🏠 Home
 
 ## Work
 - [[projects]]
-- [[tasks-current]]
+- [[tasks-july-26]]
 - [[side-quests]]
 - [[cycles]]
 
