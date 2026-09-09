@@ -12,6 +12,7 @@ parent: "[[home]]"
 
 ## Current cycle
 - September 2026
+  + [[tasks-current]]
   + [[planning-week-september-2026]]
 
 ## Previous cycles

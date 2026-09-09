@@ -2,7 +2,7 @@
 id: projects
 aliases: []
 tags:
-  - #type/index
+  - "#type/index"
 parent: "[[home]]"
 ---
 
@@ -12,6 +12,10 @@ parent: "[[home]]"
 - [[track-employer-portal-usage]]
 - [[quote-retrieval]]
 - [[nzhs-quote-flow-lead]]
+- [[admin-employee-net-zero-summary-page]]
+- [[nzhs-posthog]]
+- [[reimburse-update-trips-mystery-bug]]
+- [[nzhs-session-replay]]
 
 ## Inactive
 - [[product-selection-qualification-flow]]

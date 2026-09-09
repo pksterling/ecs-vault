@@ -40,5 +40,3 @@ parent: "[[planning-week-september-2026]]"
 - Each deal shows all solutions and the furthest step/stage that has been reached
 - NOT lead quoter requests, just employee quote requests
 
-_NOTE: Look at `CreatePipedriveDealHandler`_
-

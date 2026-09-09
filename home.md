@@ -10,7 +10,7 @@ tags:
 
 ## Work
 - [[projects]]
-- [[tasks-july-26]]
+- [[tasks-current]]
 - [[side-quests]]
 - [[cycles]]
 
